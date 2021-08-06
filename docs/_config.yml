@@ -26,7 +26,13 @@ assets:
     - images
 
 exclude:
-- README.md
-- LICENSE.md
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+
+gems:
+  - jekyll-feed
+  - jekyll-assets
 
 include: [_posts]
