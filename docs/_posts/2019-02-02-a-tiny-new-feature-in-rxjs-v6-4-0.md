@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A tiny new feature in RxJS v6.4.0
+description: it's important to summarize
 updated: 2019-07-25
 category: posts
 ---
