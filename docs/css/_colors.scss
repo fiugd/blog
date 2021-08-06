@@ -11,11 +11,6 @@
   --red: #c0392b;
   --white: #ffffff;
 }
-/* Sample css for an element */
-body {
-  background: var(--background-color);
-  color: var(--text);
-}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -26,4 +21,9 @@ body {
     --text-light: #6c6d71;
     --text-lighter: #8e8f93;
   }
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text);
 }
