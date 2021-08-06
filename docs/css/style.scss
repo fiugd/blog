@@ -42,7 +42,13 @@ a:hover { text-decoration: underline; }
 #header {
  padding: 1.2em 0.3em;
  a { color: inherit; }
- a:hover { list-style: none; }
+ a:hover { text-decoration: none; color: var(--blue); }
+}
+
+#header a {
+    color: unset;
+    display: block;
+}
 }
 #nav { padding: 6px; }
 #header .big {
