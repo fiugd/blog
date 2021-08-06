@@ -36,7 +36,7 @@ body{
 
 #header, #footer, #nav, #content { width: -webkit-fill-available; }
 #content {
- margin: 1.2em;
+ padding: 1.2em;
  margin-bottom: auto;
  overflow: auto;
 }
@@ -60,7 +60,8 @@ a:hover { text-decoration: underline; }
 }
 #header .small { font-size:    90%; padding-left: 15px; }
 #footer {
-    height: 3em;
+  height: 3em;
+  min-height: 3em;
 }
 
 .logo {
