@@ -1,0 +1,29 @@
+:root {
+  --background-color: #f7f6ee;
+  --secondary-color: #fbfefb;
+  --text-dark: #101010;
+  --text: #333333;
+  --text-light: #7b7b85;
+  --text-lighter: #ababab;
+  --blue: #3498db;
+  --green: #27ae60;
+  --yellow: #feca57;
+  --red: #c0392b;
+  --white: #ffffff;
+}
+/* Sample css for an element */
+body {
+  background: var(--background-color);
+  color: var(--text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1e1f23;
+    --secondary-color: #232428;
+    --text-dark: #efefef;
+    --text: #c4c5c9;
+    --text-light: #6c6d71;
+    --text-lighter: #8e8f93;
+  }
+}
