@@ -7,11 +7,10 @@ subtitle: ''
 
 nav:
 # - { title: 'Welcome',              href: '/' }
-- { title: 'Random',             href: '/two.html' }
 - { title: 'Present',             href: '/two.html' }
 - { title: 'Planned',             href: '/two.html' }
 - { title: 'Released',           href: '/three.html' }
-
+- { title: 'Random',             href: '/two.html' }
 
 #########################
 # more settings
