@@ -1,1 +1,5 @@
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
+
+title: fiug.dev blog
+
+theme: minima
