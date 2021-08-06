@@ -1,6 +1,12 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>
+    {% if site.title contains 'Welcome' %}
+       {{ site.title }}
+    {% else %}
+       {{ page.title }} - {{ site.title }}
+    {% endif %}
+  </title>
 
   <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}">
 </head>
