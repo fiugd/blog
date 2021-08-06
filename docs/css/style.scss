@@ -38,22 +38,10 @@ body{
   height: 100vh;
   align-items: center;
 }
-
-#header, #footer{
-  background: var(--background-secondary);
-}
-#nav{
-    background: var(--background-tertiary);
-}
-#content{
-    background: var(--background);
-}
-
 #header, #footer, #nav{
   width: -webkit-fill-available;
 }
 a, a:visited {
-  color: var(--blue);
   text-decoration: none;
 }
 a:hover {
@@ -70,7 +58,6 @@ a:hover {
 }
 #header .small {
   font-size:    90%;
-  color:        grey;
   padding-left: 15px;
 }
 #nav {
