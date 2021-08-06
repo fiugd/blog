@@ -6,7 +6,7 @@ subtitle: ''
 
 
 nav:
-- { title: 'Welcome',              href: '/' }
+# - { title: 'Welcome',              href: '/' }
 - { title: 'Page Two',             href: '/two.html' }
 - { title: 'Page Three',           href: '/three.html' }
 
