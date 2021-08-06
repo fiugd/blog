@@ -4,6 +4,9 @@
 title:    'fiug.dev'
 subtitle: ''
 
+description: blogging about fiug.dev project
+author: Harrison Cross
+permalink: /:year/:month/:day/:title:output_ext
 
 nav:
 # - { title: 'Welcome',              href: '/' }
@@ -33,9 +36,5 @@ exclude:
 
 plugins:
   - jekyll-feed
-title: Dzhavat Ushev Blog
-description: Welcome to my blog
-author: Dzhavat Ushev
-permalink: /:year/:month/:day/:title:output_ext
 
 include: [_pages]
