@@ -38,6 +38,7 @@ body{
 #content {
  margin: 1.2em;
  margin-bottom: auto;
+ overflow: auto;
 }
 a, a:visited { text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -58,6 +59,9 @@ a:hover { text-decoration: underline; }
   font-weight: bold;
 }
 #header .small { font-size:    90%; padding-left: 15px; }
+#footer {
+    height: 3em;
+}
 
 .logo {
   display: inline-block;
