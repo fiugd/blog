@@ -48,7 +48,7 @@ a:hover { text-decoration: underline; }
  a { color: inherit; }
  a:hover { text-decoration: none; color: var(--blue); }
  a:hover .logo {
-  filter: contrast(0.25) sepia(3) hue-rotate(140deg) contrast(3);
+  filter: brightness(0.5) sepia(2) hue-rotate(159deg) contrast(2);
  }
 }
 #nav {
