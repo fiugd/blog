@@ -28,3 +28,8 @@ body {
   background: var(--background);
   color: var(--text);
 }
+
+#header, #footer { background: var(--background-secondary); }
+#nav.            { background: var(--background-tertiary); }
+#content         { background: var(--background); }
+a, a:visited     { color: var(--blue); }
