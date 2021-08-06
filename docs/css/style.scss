@@ -44,13 +44,12 @@ a:hover { text-decoration: underline; }
  a { color: inherit; }
  a:hover { text-decoration: none; color: var(--blue); }
 }
+#nav {
+ padding: 0.5em 1em;
+ a { color: inherit; }
+ a:hover { color: var(--blue); }
+}
 
-#header a {
-    color: unset;
-    display: block;
-}
-}
-#nav { padding: 6px; }
 #header .big {
   font-size:   140%;
   font-weight: bold;
