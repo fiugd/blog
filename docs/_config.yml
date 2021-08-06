@@ -33,6 +33,9 @@ exclude:
 
 plugins:
   - jekyll-feed
-#   - jekyll-assets
+title: Dzhavat Ushev Blog
+description: Welcome to my blog
+author: Dzhavat Ushev
+permalink: /:year/:month/:day/:title:output_ext
 
 include: [_pages]
