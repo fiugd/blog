@@ -46,3 +46,10 @@ a:hover { text-decoration: underline; }
   font-weight: bold;
 }
 #header .small { font-size:    90%; padding-left: 15px; }
+
+#logo {
+ display: inline-block;
+ background: url(/images/favicon.svg);
+ width: 25px;
+ height: 25px;
+}
