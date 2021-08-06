@@ -31,7 +31,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-gems:
+plugins:
   - jekyll-feed
 #   - jekyll-assets
 
