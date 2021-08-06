@@ -10,17 +10,22 @@
 		</linearGradient>
 	</defs>
 	<style>
-		circle { fill: white; }
+		circle {
+			stroke: white;
+			fill: white;
+		}
 		path {
-			stroke: black; stroke-width: .2;
-			fill:url(#gradient);
+			stroke: white;	
+			stroke-width: .2;	
+<!-- 			stroke: black; -->
+<!-- 			fill:url(#gradient); -->
 		}
 		.stop1 { stop-color: #5BF; }
 		.stop2 { stop-color: #E04; }
 
 		@media (prefers-color-scheme: dark)  {
-			circle { fill: black; }
-			path { stroke: black; stroke-width: .2;}
+<!-- 			circle { fill: black; } -->
+<!-- 			path { stroke: black; stroke-width: .2;} -->
 			.stop1 { stop-color: #0FF; }
 			.stop2 { stop-color: #F0C; }
 		}
