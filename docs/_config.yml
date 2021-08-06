@@ -33,6 +33,6 @@ exclude:
 
 gems:
   - jekyll-feed
-  - jekyll-assets
+#   - jekyll-assets
 
 include: [_pages]
