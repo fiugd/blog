@@ -20,6 +20,10 @@ sass:
   sass_dir: css
   style:    expanded
 
+assets:
+  sources:
+    - images
+
 exclude:
 - README.md
 - LICENSE.md
