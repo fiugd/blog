@@ -10,12 +10,46 @@
 
 @import 'settings';
 
-/*
- * css styles go here
- */
+/* =Reset
+-------------------------------------------------------------- */
+ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+ 
+html,
+body,
+div{
+    margin: 0;
+    padding: 0;
+}
 
-body {
+/* =
+-------------------------------------------------------------- */
+ 
+body{
   font-family: $font-family;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: center;
+}
+
+#header, #footer{
+  background: #cccccc;
+}
+#header, #footer, #nav{
+  width: -webkit-fill-available;
+}
+#nav{
+    background: #dddddd;    
+}
+#content{
+    background: white;    
 }
 
 a, a:visited {
@@ -28,23 +62,18 @@ a:hover {
 }
 
 
-
-
 #header {
   padding: 4px;
 }
-
 #header .big {
   font-size:   140%;
   font-weight: bold;
 }
-
 #header .small {
   font-size:    90%;
   color:        grey;
   padding-left: 15px;
 }
-
 #nav {
   padding: 6px;
 }
