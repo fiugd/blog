@@ -11,7 +11,7 @@
 	</defs>
 	<style>
 		circle {
-			fill: white;
+			fill: currentColor;
 		}
 		path {
 			fill: black;	
