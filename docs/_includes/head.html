@@ -7,6 +7,12 @@
        {{ page.title }} - {{ site.title }}
     {% endif %}
   </title>
+	<meta charset="utf-8">
+
+	<meta name="description" content="{{ page.description | site.description | '' }}">
+	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="mobile-web-app-capable" content="yes">
 
   <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}?no-cache=ehjekj213894">
 </head>
