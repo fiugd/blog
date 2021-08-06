@@ -1,2 +1,2 @@
 # fiug-blog
-blogging about fiug.dev
+blogging about [fiug.dev](https://fiug.dev)
