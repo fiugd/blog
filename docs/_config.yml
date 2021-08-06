@@ -29,3 +29,4 @@ exclude:
 - README.md
 - LICENSE.md
 
+include: [_posts]
