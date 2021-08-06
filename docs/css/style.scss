@@ -15,21 +15,16 @@
 -------------------------------------------------------------- */
  
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-top: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 0;
 }
  
-html,
-body,
-div{
-    margin: 0;
-    padding: 0;
+html, body, div {
+  margin: 0;
+  padding: 0;
 }
-
-/* =
--------------------------------------------------------------- */
  
 body{
   font-family: $font-family;
@@ -38,32 +33,16 @@ body{
   height: 100vh;
   align-items: center;
 }
-#header, #footer, #nav{
-  width: -webkit-fill-available;
-}
-a, a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
 
+#header, #footer, #nav, #content { width: -webkit-fill-available; }
+#content { margin-bottom: auto; }
+a, a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-#header {
-  padding: 4px;
-}
+#header { padding: 4px; }
+#nav { padding: 6px; }
 #header .big {
   font-size:   140%;
   font-weight: bold;
 }
-#header .small {
-  font-size:    90%;
-  padding-left: 15px;
-}
-#nav {
-  padding: 6px;
-}
-
-
-
-
+#header .small { font-size:    90%; padding-left: 15px; }
