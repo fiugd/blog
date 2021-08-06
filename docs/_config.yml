@@ -1,5 +1,26 @@
-# theme: jekyll-theme-slate
+###########
+# site.title
 
-title: fiug.dev blog
+title:    'fiug.dev blog'
+subtitle: '---subtitle---'
 
-# theme: minima
+
+nav:
+- { title: 'Welcome',              href: '/' }
+- { title: 'Page Two',             href: '/two.html' }
+- { title: 'Page Three',           href: '/three.html' }
+
+
+#########################
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+exclude:
+- README.md
+- LICENSE.md
+
