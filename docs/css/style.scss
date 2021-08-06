@@ -39,7 +39,11 @@ body{
 a, a:visited { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-#header { padding: 4px; }
+#header {
+ padding: 1.2em 0.3em;
+ a { color: inherit; }
+ a:hover { list-style: none; }
+}
 #nav { padding: 6px; }
 #header .big {
   font-size:   140%;
