@@ -35,7 +35,10 @@ body{
 }
 
 #header, #footer, #nav, #content { width: -webkit-fill-available; }
-#content { margin-bottom: auto; }
+#content {
+ margin: 1.2em;
+ margin-bottom: auto;
+}
 a, a:visited { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
