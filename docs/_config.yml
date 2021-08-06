@@ -35,4 +35,4 @@ gems:
   - jekyll-feed
   - jekyll-assets
 
-include: [_posts]
+include: [_pages]
