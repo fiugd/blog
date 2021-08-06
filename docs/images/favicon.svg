@@ -11,10 +11,10 @@
 	</defs>
 	<style>
 		circle {
-			fill: white;
+			fill: black;
 		}
 		path {
-			fill: black;	
+			fill: white;	
 			stroke-width: .2;	
 <!-- 			stroke: black; -->
 <!-- 			fill:url(#gradient); -->
