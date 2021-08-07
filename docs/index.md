@@ -5,44 +5,9 @@ title: Welcome
 
 # {{ page.title }}
 
+_work in progress: more to come_
 
-_Add your text here_
-
-:::Testing:::
-
-What's Markdown (`.md`)?
-
-Markdown is markup that lets you write hypertext (HTML) documents
-in easy-to-read and easy-to-write plain text.
-No angle brackets `<></>` required for
-paragraphs, lists, blockquotes, tables, etc.
-
-
-This is a paragraph (in Markdown). Some more
-text here.
-
-This is another paragraph.
-
-This is a list:
-
-- Orange
-- Apple
-- Blueberry
-
-
-
-Just getting started with Markdown?
-See the [HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
-
-
-[quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md
-
-{% for post in site.posts %}
-  <h1>[{{ post.title | escape }}]({{ post.url | relative_url }})</h1>
-  > {{ post.description }}
-  {{ post.date }}
-{% endfor %}
-
+# posts (fake)
 <ul class="posts">
   {% for post in site.posts %}
     <li class="post">
@@ -54,3 +19,6 @@ See the [HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
     </li>
   {% endfor %}
 </ul>
+
+[HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
+[quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md
