@@ -7,7 +7,7 @@ title: Welcome
 
 _work in progress: more to come_
 
-# posts (fake)
+## posts (fake)
 <ul class="posts">
   {% for post in site.posts %}
     <li class="post">
@@ -20,5 +20,10 @@ _work in progress: more to come_
   {% endfor %}
 </ul>
 
-# misc
+## misc
 [Markdown Cheat Sheet](https://github.com/mundimark/quickrefs/blob/master/HTML.md)
+
+## references
+- https://github.com/waltershub/waltershub.github.io
+- https://github.com/dzhavat/dzhavat.github.io
+
