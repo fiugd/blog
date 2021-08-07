@@ -44,7 +44,7 @@ See the [HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
 {% endfor %}
 
 <ul class="posts">
-  {% for post in site.categories.posts %}
+  {% for post in site.posts %}
     <li class="post">
       <a href="{{ post.url }}">{{ post.title }}</a>
       <span>{{ post.description }}</span>
