@@ -21,9 +21,9 @@ _work in progress: more to come_
 </ul>
 
 ## misc
-[Markdown Cheat Sheet](https://github.com/mundimark/quickrefs/blob/master/HTML.md)
+- [Markdown Cheat Sheet](https://github.com/mundimark/quickrefs/blob/master/HTML.md)
 
 ## references
-- https://github.com/waltershub/waltershub.github.io
-- https://github.com/dzhavat/dzhavat.github.io
+- [waltershub](https://github.com/waltershub/waltershub.github.io)
+- [dzhavat](https://github.com/dzhavat/dzhavat.github.io)
 
