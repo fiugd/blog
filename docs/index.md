@@ -20,5 +20,6 @@ _work in progress: more to come_
   {% endfor %}
 </ul>
 
+# misc
 [HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
 [quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md
