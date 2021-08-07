@@ -21,5 +21,4 @@ _work in progress: more to come_
 </ul>
 
 # misc
-[HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
-[quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md
+[Markdown Cheat Sheet](https://github.com/mundimark/quickrefs/blob/master/HTML.md)
