@@ -38,6 +38,7 @@ See the [HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
 [quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md
 
 {% for post in site.posts %}
-  #[{{ post.title | escape }}]({{ post.url | relative_url }})
+  <h1>[{{ post.title | escape }}]({{ post.url | relative_url }})</h1>
   > {{ post.description }}
+  {{ post.date }}
 {% endfor %}
