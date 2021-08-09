@@ -7,7 +7,7 @@ title: Welcome
 
 _work in progress: more to come_
 
-## posts (fake)
+## posts
 <ul class="posts">
   {% for post in site.posts %}
     <li class="post">
