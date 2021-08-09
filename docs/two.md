@@ -14,7 +14,7 @@ TODO: move all of the following from fiug-beta to here
 ## references
 - [waltershub](https://github.com/waltershub/waltershub.github.io)
 - [dzhavat](https://github.com/dzhavat/dzhavat.github.io)
-
+- [tags in json-feed](https://frippz.se/2019/09/05/tags-in-json-feed/)
 
 # {{ page.title }}
 
