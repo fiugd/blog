@@ -13,6 +13,7 @@ _work in progress: more to come_
     <li class="post">
       <a href="{{ post.url }}">{{ post.title }}</a>
       <span>{{ post.description }}</span>
+      <span>{{ post.category }}</span>
       <time class="publish-date" datetime="{{ post.date | date: '%F' }}">
         {{ post.date | date: "%B %-d, %Y" }}
       </time>
