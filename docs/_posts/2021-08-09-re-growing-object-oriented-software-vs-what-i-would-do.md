@@ -3,7 +3,9 @@ layout: post
 title: "re: Growing Object-Oriented Software vs what I would do"
 description: my reaction to a blog post reacting to OOP
 updated: 2021-08-09
-category: philosophy, practices
+tags:
+  - philosophy
+  - practices
 ---
 
 > re: [Growing Object-Oriented Software vs what I would do — Dawid Ciężarkiewicz aka \`dpc\`](https://dpc.pw/growing-object-oriented-software-vs-what-i-would-do)
