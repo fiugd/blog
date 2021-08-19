@@ -5,7 +5,7 @@ started: 2021-04-20
 release: 2021-08-19   
 video: https://www.youtube.com/watch?v=7T-L-MBFoE4.  
 
-THEME: FILE OPERATIONS | CLEANUP
+THEME: FILE OPERATIONS | CLEANUP  
 SUB-THEMES:
   - git++
   - SW++
