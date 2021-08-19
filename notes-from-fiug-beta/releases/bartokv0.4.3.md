@@ -1,4 +1,4 @@
-![Release Image](https://bit.ly/fiugHexagons)
+![Release Image](https://user-images.githubusercontent.com/1816471/115645234-02556880-a2ee-11eb-9e7d-e5c434632cf2.png)
 
 # bartok v0.4.3
 started: 2021-04-20
