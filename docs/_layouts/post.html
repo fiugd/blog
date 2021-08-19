@@ -2,14 +2,10 @@
 layout: default
 ---
 <div class="page-header">
-  
-  <h1 class="page-title">{{page.title}}</h1>
-  
   <time class="publish-date" datetime="{{ post.date | date: '%F' }}">
     {{ page.date | date: "%B %-d, %Y" }}
   </time>
-  <span class="page-list-date">
-  </span>
+  <h1 class="page-title">{{page.title}}</h1>
 </div>
 <div class="post-container">
   {% if page.img %}
