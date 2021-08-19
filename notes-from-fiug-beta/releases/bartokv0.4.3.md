@@ -2,15 +2,16 @@
 
 # bartok v0.4.3
 started: 2021-04-20
-release: 2021-07-20
+release: 2021-08-19
+video: https://www.youtube.com/watch?v=7T-L-MBFoE4
 
 THEME: FILE OPERATIONS | CLEANUP
 SUB-THEMES:
-	- git++
-	- SW++
-	- editor++
-	- terminal++
-	- preview++
+  - git++
+  - SW++
+  - editor++
+  - terminal++
+  - preview++
 
 > get file operations tighter
 > terminal first dev approach
