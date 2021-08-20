@@ -25,7 +25,45 @@ html, body, div {
   margin: 0;
   padding: 0;
 }
- 
+
+/* ------------------------------------------------------------- */
+
+.center-container {
+    width: 100%;
+}
+#header, #footer, #nav, #content {
+    display: flex;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+ .center-container {
+     width: 50%;
+     max-width: 60em;
+ }
+ #header, #footer, #nav, #content {
+     justify-content: center;
+ }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+}
+
+
+/* ------------------------------------------------------------- */ 
 body{
   font-family: $font-family;
   display: flex;
@@ -38,10 +76,6 @@ body{
     width: -webkit-fill-available;
     display: flex;
     justify-content: center;
-}
-.center-container {
-    width: 50%;
-    max-width: 60em;
 }
 
 #content {
