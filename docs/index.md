@@ -7,6 +7,8 @@ title: Welcome
 
 _work in progress: more to come_
 
+{{ include fiug-intro.md }}
+
 ## posts
 <ul class="posts">
   {% for post in site.posts %}
