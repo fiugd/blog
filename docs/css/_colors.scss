@@ -1,5 +1,5 @@
-html { background: white; }
-@media (prefers-color-scheme: dark) { html { background: black; } }
+html,body { background: white; }
+@media (prefers-color-scheme: dark) { html,body { background: black; } }
 
 :root {
   --background: #f7f6ee;
