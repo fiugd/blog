@@ -12,8 +12,8 @@ html { color-scheme: light; }
   --yellow: #feca57;
   --red: #c0392b;
   --white: #ffffff;
-  --background-secondary: #ddd;
-  --background-tertiary: #eee;
+  --background-secondary: #cecece;
+  --background-tertiary: #cecece;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,7 +24,7 @@ html { color-scheme: light; }
     --text: #c4c5c9;
     --text-light: #6c6d71;
     --text-lighter: #8e8f93;
-    --background-secondary: #000;
+    --background-secondary: #333;
     --background-tertiary: #333;
   }
   html { color-scheme: dark; }
