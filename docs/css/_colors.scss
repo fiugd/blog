@@ -1,5 +1,4 @@
 html { color-scheme: light; }
-@media (prefers-color-scheme: dark) { html { color-scheme: dark; } }
 
 :root {
   --background: #f7f6ee;
@@ -28,6 +27,7 @@ html { color-scheme: light; }
     --background-secondary: #000;
     --background-tertiary: #333;
   }
+  html { color-scheme: dark; }
 }
 
 body {
