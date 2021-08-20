@@ -46,8 +46,7 @@ html, body, div {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
  .center-container {
-     width: 50%;
-     max-width: 60em;
+     width: 75%;
  }
  #header, #footer, #nav, #content {
      justify-content: center;
@@ -56,6 +55,10 @@ html, body, div {
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+  .center-container {
+     width: 60%;
+     max-width: 60em;
+ }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
