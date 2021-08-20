@@ -3,10 +3,6 @@
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:svg="http://www.w3.org/2000/svg"
 >
-	<style xmlns="http://www.w3.org/2000/svg">
-		circle { fill: currentColor; }
-	</style>
-	
 	<defs>
 	      <mask id="integral">
 		<path d="
