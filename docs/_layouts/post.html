@@ -15,7 +15,9 @@ layout: default
     <img class="post-img" src={{ page.image}} alt="{{page.title}}">
   {% endif %}
   {% if page.video %}
-    <iframe width="560" height="315" src="{{ page.video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="video-container">
+      <iframe class="video" src="{{ page.video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
   {% endif %}
   <div class="post-content">
     <article>
