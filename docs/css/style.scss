@@ -95,9 +95,6 @@ body{
  padding: 1.2em 0.3em;
  a { color: inherit; }
  a:hover { text-decoration: none; color: var(--blue); }
- a:hover .logo {
-  filter: brightness(0.5) sepia(2) hue-rotate(159deg) contrast(2);
- }
 }
 #nav {
  padding: 0.5em 1em;
@@ -117,7 +114,9 @@ body{
 
 .logo {
   display: inline-block;
-  background: url(/images/favicon.svg?v={{ site.time | date:'%s' }});
+  background: currentColor;
+  -webkit-mask-image: url(/images/favicon.svg?v={{ site.time | date:'%s' }});
+  mask-image: url(/images/favicon.svg?v={{ site.time | date:'%s' }});
   width: 2em;
   height: 2em;
   background-position: 0px 0px;
