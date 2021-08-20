@@ -34,7 +34,15 @@ body{
   align-items: center;
 }
 
-#header, #footer, #nav, #content { width: -webkit-fill-available; }
+#header, #footer, #nav, #content {
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+}
+.center-container {
+    width: 50%;
+}
+
 #content {
  padding: 1.2em;
  margin-bottom: auto;
