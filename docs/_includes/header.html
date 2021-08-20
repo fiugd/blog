@@ -1,20 +1,24 @@
 
 <div id="header">
-  <a href="/">
-    <div class="logo"></div>
-    <span class='big'>{{ site.title }}</span>
-    <span class='small'>{{ site.subtitle }}</span>
-  </a>
+  <div class="center-container">
+    <a href="/">
+      <div class="logo"></div>
+      <span class='big'>{{ site.title }}</span>
+      <span class='small'>{{ site.subtitle }}</span>
+    </a>
+  </div>
 </div>
 
 
 <div id="nav">
-{% for item in site.nav %}
-  {% if item.href contains 'http' %}
-     <a href="{{ item.href }}">{{ item.title }}</a>
-  {% else %}
-     <a href="{{ item.href | relative_url }}">{{ item.title }}</a>
-  {% endif %}
-  {% if forloop.last %}  {% else %} • {% endif %}
-{% endfor %}
+    <div class="center-container">
+      {% for item in site.nav %}
+        {% if item.href contains 'http' %}
+           <a href="{{ item.href }}">{{ item.title }}</a>
+        {% else %}
+           <a href="{{ item.href | relative_url }}">{{ item.title }}</a>
+        {% endif %}
+        {% if forloop.last %}  {% else %} • {% endif %}
+      {% endfor %}
+    </div>
 </div>
