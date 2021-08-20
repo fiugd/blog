@@ -10,9 +10,9 @@
 		</linearGradient>
 	</defs>
 	<style xmlns="http://www.w3.org/2000/svg">
-		circle { fill: white; }
+		circle { fill: black; }
 		path {
-			fill: black;	
+			fill: white;	
 			stroke-width: .2;	
 <!-- 			stroke: black; -->
 <!-- 			fill:url(#gradient); -->
@@ -21,8 +21,8 @@
 		.stop2 { stop-color: #E04; }
 
 		@media (prefers-color-scheme: dark)  {
-            		circle { fill: black; }
-            		path { fill: white; stroke-width: .2;}
+            		circle { fill: white; }
+            		path { fill: black; stroke-width: .2;}
 			.stop1 { stop-color: #0FF; }
 			.stop2 { stop-color: #F0C; }
 		}
