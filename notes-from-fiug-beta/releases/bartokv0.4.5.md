@@ -14,3 +14,4 @@ SUB-THEMES:
 
 - [ ] file change listeners seem to be broken by preview
 	- need details
+	- see [preview breaking in demo video](https://youtu.be/7T-L-MBFoE4?t=512)
