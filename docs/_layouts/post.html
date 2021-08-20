@@ -11,6 +11,9 @@ layout: default
   {% if page.img %}
    <img class="post-img" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
   {% endif %}
+  {% if page.image %}
+   <img class="post-img" src={{ page.image}} alt="{{page.title}}">
+  {% endif %}
   <div class="post-content">
     <article>
       {% if page.author %}
