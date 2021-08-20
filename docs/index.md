@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "blog.fiug.dev"
+title: blog
 ---
 
 {% include fiug-intro.md %}
