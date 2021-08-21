@@ -7,9 +7,8 @@
       <time class="publish-date" datetime="{{ post.date | date: '%F' }}">
         {{ post.date | date: "%B %-d, %Y" }}
       </time>
-      <span>{{ post.category }}</span>
       <ul>
-        {% for tag in post.tags %}
+        {% for tag in post.categories %}
           <li>{{ tag }}</li>
         {% endfor %}
       </ul>
