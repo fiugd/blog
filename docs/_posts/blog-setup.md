@@ -1,6 +1,8 @@
 ---
-layout: default
-title:  Blog Setup  
+layout: post
+title:  Blog Setup
+description: some notes about setting up
+date:   2021-08-21
 categories:
   - present
 ---
@@ -17,6 +19,9 @@ TODO: move all of the following from fiug-beta to here
 - [waltershub](https://github.com/waltershub/waltershub.github.io)
 - [dzhavat](https://github.com/dzhavat/dzhavat.github.io)
 - [tags in json-feed](https://frippz.se/2019/09/05/tags-in-json-feed/)
+- [tags](https://longqian.me/2017/02/09/github-jekyll-tag/)
+- [categories](https://blog.webjeda.com/jekyll-categories/)
+- [archives](https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md#type-specific-layouts)
 
 # {{ page.title }}
 
