@@ -22,6 +22,7 @@ TODO: move all of the following from fiug-beta to here
 - [tags](https://longqian.me/2017/02/09/github-jekyll-tag/)
 - [categories](https://blog.webjeda.com/jekyll-categories/)
 - [archives](https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md#type-specific-layouts)
+- [filenames without dates (NOPE)](https://talk.jekyllrb.com/t/how-to-get-filenames-without-dates/2412/2)
 
 # {{ page.title }}
 
