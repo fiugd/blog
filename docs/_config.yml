@@ -29,6 +29,9 @@ assets:
   sources:
     - images
 
+include:
+  - _pages
+
 exclude:
   - README.md
   - LICENSE.md
