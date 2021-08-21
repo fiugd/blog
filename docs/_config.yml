@@ -10,10 +10,10 @@ permalink: /:year/:month/:day/:title:output_ext
 
 nav:
 # - { title: 'Welcome',              href: '/' }
-- { title: 'Present',             href: '/two.html' }
-- { title: 'Planned',             href: '/two.html' }
-- { title: 'Released',           href: '/three.html' }
-- { title: 'Random',             href: '/two.html' }
+- { title: 'Present',             href: '/present/' }
+- { title: 'Planned',             href: '/planned/' }
+- { title: 'Released',           href: '/released/' }
+- { title: 'Random',             href: '/random/' }
 - { title: '@github', href: 'https://github.com/crosshj/fiug-blog' }
 
 #########################
