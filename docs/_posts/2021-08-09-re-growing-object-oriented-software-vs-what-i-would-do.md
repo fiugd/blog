@@ -6,6 +6,7 @@ updated: 2021-08-09
 tags:
   - philosophy
   - practices
+  - random
 ---
 
 > re: [Growing Object-Oriented Software vs what I would do — Dawid Ciężarkiewicz aka \`dpc\`](https://dpc.pw/growing-object-oriented-software-vs-what-i-would-do)
