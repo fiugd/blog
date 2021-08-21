@@ -14,7 +14,7 @@ nav:
 - { title: 'Planned',             href: '/planned/' }
 - { title: 'Released',           href: '/released/' }
 - { title: 'Random',             href: '/random/' }
-- { title: '@github', href: 'https://github.com/crosshj/fiug-blog' }
+- { title: '@github', href: 'https://github.com/crosshj/fiug-blog/tree/main/docs' }
 
 #########################
 # more settings
