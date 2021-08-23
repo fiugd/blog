@@ -6,7 +6,8 @@ subtitle: 'the blog'
 
 description: blogging about fiug.dev project
 author: Harrison Cross
-permalink: /:year/:month/:day/:title:output_ext
+permalink: none
+# permalink: /:year/:month/:day/:title:output_ext
 
 version:
   beta: 0.4.4
