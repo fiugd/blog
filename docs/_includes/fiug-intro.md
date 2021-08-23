@@ -4,6 +4,6 @@ fiug is a development environment for the browser which offers alternative workf
 
 Think of it as an online, code playground that grew up and became the way you build, explore, and maintain your creations.
 
-This tool is currently at version ({{ site.version.prod }}).  You can try it out for yourself at [fiug.dev](https://fiug.dev) or read about it <a href="/released/v{{ site.version.prod }}.html">here</a>.
+This tool is currently at version ({{ site.version.prod }}).  Try it out at [fiug.dev](https://fiug.dev) or read about it <a href="/released/v{{ site.version.prod }}.html">here</a>.
 
-If you are curious and brave, check out the beta version ({{ site.version.beta }}) at [beta.fiug.dev](https://beta.fiug.dev) or read about it ({{ site.version.prod }}) ({{ site.version.beta }}) <a href="/present/v{{ site.version.beta }}.html">here</a>.
+Work is in progress for version ({{ site.version.beta }}). Explore at [beta.fiug.dev](https://beta.fiug.dev) or read about it <a href="/present/v{{ site.version.beta }}.html">here</a>.
