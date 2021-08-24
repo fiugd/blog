@@ -28,7 +28,7 @@ defaults:
       path: "" # all project files
       type: "posts" # of post type
     values:
-      layout: "default"
+      layout: "post"
       excerpt_separator: <!--more-->
 
 
