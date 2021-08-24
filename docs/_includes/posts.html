@@ -8,15 +8,18 @@
           {{ post.date | date: "%B %-d, %Y" }}
         </time>
       </span>
-      <p>{{ post.description }}</p> 
-      <p>{{ post.excerpt }}</p> 
-      <span>...</span>
-      <a href="{{ post.url }}">READ MORE</a>
+
       <ul>
         {% for tag in post.categories %}
           <li>{{ tag }}</li>
         {% endfor %}
       </ul>
+
+      <p>{{ post.description }}</p> 
+      <p>{{ post.excerpt }}</p> 
+      <span>...</span>
+      <a href="{{ post.url }}">READ MORE</a>
+
     </li>
   {% endfor %}
 </ul>
