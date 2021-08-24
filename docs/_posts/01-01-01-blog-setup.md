@@ -1,11 +1,15 @@
 ---
-layout: post
+
 title:  Blog Setup
 description: some notes about setting up
 date:   2021-08-21
-categories:
-  - present
+category: present
+
 ---
+This is a running list of notes to myself related to setting up this blog.
+
+<!-- more -->
+
 ## misc
 - [Markdown Cheat Sheet](https://github.com/mundimark/quickrefs/blob/master/HTML.md)
 
