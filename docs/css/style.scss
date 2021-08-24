@@ -149,5 +149,5 @@ blockquote {
     height: 100%;
 }
 input.task-list-item-checkbox { margin-right: 0.5em; }
-li.task-list-item { list-style: none; padding-bottom: 0.25em; }
-ul.task-list { padding: 0; }
+ul.posts li, li.task-list-item { list-style: none; padding-bottom: 0.25em; }
+ul.posts, ul.task-list { padding: 0; }
