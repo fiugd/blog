@@ -152,4 +152,12 @@ input.task-list-item-checkbox { margin-right: 0.5em; }
 li.post, li.task-list-item { list-style: none;}
 li.post {  margin-bottom: 1em;  }
 li.task-list-item {  padding-bottom: 0.25em;  }
-ul.posts, ul.task-list { padding: 0; }
+ul.tags, ul.posts, ul.task-list { list-style: none; padding: 0; }
+ul.tags { display: inline-block; }
+ul.tags li {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 0.05em 0.5em;
+    font-size: .9em;
+    opacity: 0.8;
+}
