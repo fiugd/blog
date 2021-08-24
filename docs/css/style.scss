@@ -149,5 +149,7 @@ blockquote {
     height: 100%;
 }
 input.task-list-item-checkbox { margin-right: 0.5em; }
-ul.posts li, li.task-list-item { list-style: none; padding-bottom: 0.25em; }
+li.post, li.task-list-item { list-style: none;}
+li.post {  margin-bottom: 1em;  }
+li.task-list-item {  padding-bottom: 0.25em;  }
 ul.posts, ul.task-list { padding: 0; }
