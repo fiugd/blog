@@ -18,6 +18,7 @@ categories:
 - [archives](https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md#type-specific-layouts)
 - [filenames without dates (NOPE)](https://talk.jekyllrb.com/t/how-to-get-filenames-without-dates/2412/2)
 - [filenames without dates (YEP)](https://stackoverflow.com/questions/27099427/jekyll-filename-without-date)
+- [post excerpts](https://theunixtips.com/create-post-excerpt-intelligently-in-jekyll/)
 
 # TODO: move all of the following from fiug-beta to here
 ![image](https://user-images.githubusercontent.com/1816471/128581713-cddc90d7-0ebf-43f5-82ae-d16376b18006.png)
