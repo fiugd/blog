@@ -29,7 +29,7 @@ defaults:
       type: "posts" # of post type
     values:
       layout: "post"
-      excerpt_separator: <!--more-->
+      excerpt_separator: <!-- more -->
 
 
 #########################
