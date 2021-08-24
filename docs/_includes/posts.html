@@ -3,7 +3,8 @@
   {% for post in site.posts %}
     <li class="post">
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.description }}</span> 
+      <p>{{ post.description }}</p> 
+      <p>{{ post.excerpt }}</p> 
       <time class="publish-date" datetime="{{ post.date | date: '%F' }}">
         {{ post.date | date: "%B %-d, %Y" }}
       </time>
