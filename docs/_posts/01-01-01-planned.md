@@ -11,4 +11,3 @@ This is a WIP to serve as an example of what a planning post should look like.
 
 <!-- more -->
 
-https://talk.jekyllrb.com/t/how-to-get-filenames-without-dates/2412/2
