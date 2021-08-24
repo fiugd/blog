@@ -150,7 +150,12 @@ blockquote {
 }
 input.task-list-item-checkbox { margin-right: 0.5em; }
 li.post, li.task-list-item { list-style: none;}
-li.post {  margin-bottom: 1em;  }
+li.post {
+    margin-bottom: 1em;
+    background: #6771;
+    padding: 1.5em;
+    border-radius: 5px;
+}
 li.task-list-item {  padding-bottom: 0.25em;  }
 ul.tags, ul.posts, ul.task-list { list-style: none; padding: 0; }
 ul.tags { display: none; }
