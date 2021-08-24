@@ -2,12 +2,14 @@
 <ul class="posts">
   {% for post in site.posts %}
     <li class="post">
-      <h3>{{ post.title }}</h3>
+
       <span>
         <time class="publish-date" datetime="{{ post.date | date: '%F' }}">
           {{ post.date | date: "%B %-d, %Y" }}
         </time>
       </span>
+
+      <h3>{{ post.title }}</h3>
 
       <ul class="tags">
         {% for tag in post.categories %}
