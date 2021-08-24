@@ -21,6 +21,17 @@ nav:
 - { title: 'Random',             href: '/random/' }
 - { title: '@github', href: 'https://github.com/crosshj/fiug-blog/tree/main/docs' }
 
+
+defaults:
+  -
+    scope:
+      path: "" # all project files
+      type: "posts" # of post type
+    values:
+      layout: "default"
+      excerpt_separator: <!--more-->
+
+
 #########################
 # more settings
 
