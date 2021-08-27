@@ -7,7 +7,7 @@ html { color-scheme: light; }
   --text: #333333;
   --text-light: #7b7b85;
   --text-lighter: #ababab;
-  --blue: #3498db88;
+  --blue: #07de;
   --green: #27ae6088;
   --yellow: #feca5788;
   --red: #c0392b88;
@@ -40,7 +40,7 @@ body {
 #content         { background: var(--background); }
 a, a:visited     { color: var(--blue); }
 blockquote       {
-  border-left: 3px solid var(--yellow);
+  border-left: 3px solid var(--green);
   background: #6661;
 }
 strong           { color: var(--text-dark); }

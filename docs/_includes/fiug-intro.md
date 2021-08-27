@@ -32,16 +32,18 @@ The answers to those questions are reasonably simple.  Before the answers, thoug
 >
 > Let's create something significant using < insert language or framework >?
 >  - pick a language or framework that is new to you
->  - go ahead, google it
+>  - duck-duck-go ahead and dig for it
 >  - come back when you have made something useful
 >  - now, let's be honest about everything you found
->  - also, let's repeat this exercise for any other language and/or framework you fancy
+>  - also, let's repeat this exercise for any/all other languages and/or frameworks you fancy
 >
-> What if it could be easier?
+> How was that? What if it could be easier?
 
-Now, here's the simple answer: fiug is an attempt to make it better.
+<p></p>
 
-There are other tools that do something similar, but I found them lacking and began working on an alternative.
+Now, here's the simple answer: fiug is an attempt to shorcut all that (and more)!
+
+There are other tools that do something similar, but I found them lacking.  So I began working on an alternative.
 
 About the browser:  this is the fastest and most ubiquitous way to achieve the goal stated above.  For now, fiug is hosted here.  Maybe some day it will find other homes.
 
