@@ -1,5 +1,3 @@
-Hello, I am Harrison, the first creator of fiug.
-
 <div class="video-container">
 	<iframe
 		class="video"
@@ -10,6 +8,10 @@ Hello, I am Harrison, the first creator of fiug.
 		allowfullscreen
 	></iframe>
 </div>
+
+<p></p>
+
+Hello, I am Harrison, the first creator of fiug.
 
 ## what is fiug?
 
