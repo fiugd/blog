@@ -54,6 +54,6 @@ I'll leave it there for now.  I'm happy to discuss further (I do value discussio
 
 Find me in either case.
 
-This tool is currently at version `{{ site.version.prod }}`.  Try it out at [fiug.dev](https://fiug.dev) or read about [version {{ site.version.prod }}]("/released/v{{ site.version.prod }}.html).
+This tool is currently at version `{{ site.version.prod }}`.  Try it out at [fiug.dev](https://fiug.dev) or read about [version {{ site.version.prod }}](/released/v{{ site.version.prod }}.html).
 
 Work is in progress for version `{{ site.version.beta }}`. Explore at [beta.fiug.dev](https://beta.fiug.dev) or read about [version {{ site.version.beta }}](/present/v{{ site.version.beta }}.html).
