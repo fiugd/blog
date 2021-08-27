@@ -1,5 +1,16 @@
 Hello, I am Harrison, the first creator of fiug.
 
+<div class="video-container">
+	<iframe
+		class="video"
+		src="https://www.youtube.com/embed/LZFmMUIu2dc"
+		title="How to fiug"
+		frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+		allowfullscreen
+	></iframe>
+</div>
+
 ## what is fiug?
 
 fiug is a browser-based development environment which offers alternative workflows for popular languages and frameworks.
