@@ -30,7 +30,7 @@ The answers to those questions are reasonably simple.  Before the answers, thoug
 >
 > Need help agreeing?  How about an exercise?
 >
-> Let's create something significant using `< insert language or framework >`?
+> Let's create something significant using `insert language or framework`:
 >  - pick a language or framework that is new to you
 >  - [duck-duck-go](http://ddg.gg) search for it
 >  - come back after you have made [something useful](https://todomvc.com/)
