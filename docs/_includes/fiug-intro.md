@@ -32,8 +32,8 @@ The answers to those questions are reasonably simple.  Before the answers, thoug
 >
 > Let's create something significant using < insert language or framework >?
 >  - pick a language or framework that is new to you
->  - duck-duck-go ahead and dig for it
->  - come back when you have made something useful
+>  - [duck-duck-go](http://ddg.gg) search for it
+>  - come back after you have made [something useful](https://todomvc.com/)
 >  - now, let's be honest about everything you found
 >  - also, let's repeat this exercise for any/all other languages and/or frameworks you fancy
 >
@@ -41,7 +41,7 @@ The answers to those questions are reasonably simple.  Before the answers, thoug
 
 <p></p>
 
-Now, here's the simple answer: fiug is an attempt to shorcut all that (and more)!
+Now, here's the simple answer: fiug is an attempt to shortcut all that (and more)!
 
 There are other tools that do something similar, but I found them lacking.  So I began working on an alternative.
 
