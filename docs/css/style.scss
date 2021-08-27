@@ -102,6 +102,14 @@ body{
  a:hover { color: var(--blue); }
 }
 
+.center-container > h1,
+.center-container > h2,
+.center-container > h3,
+.center-container > h4,
+.center-container > h5 {
+  margin-top: 2em;
+}
+
 #header .big {
   font-size:   140%;
   font-weight: bold;

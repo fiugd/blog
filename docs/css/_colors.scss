@@ -7,10 +7,10 @@ html { color-scheme: light; }
   --text: #333333;
   --text-light: #7b7b85;
   --text-lighter: #ababab;
-  --blue: #3498db;
-  --green: #27ae60;
-  --yellow: #feca57;
-  --red: #c0392b;
+  --blue: #3498db88;
+  --green: #27ae6088;
+  --yellow: #feca5788;
+  --red: #c0392b88;
   --white: #ffffff;
   --background-secondary: #cecece;
   --background-tertiary: #cecece;
@@ -39,5 +39,8 @@ body {
 #nav             { background: var(--background-tertiary); }
 #content         { background: var(--background); }
 a, a:visited     { color: var(--blue); }
-blockquote       { background: var(--background-tertiary); }
+blockquote       {
+  border-left: 3px solid var(--yellow);
+  background: #6661;
+}
 strong           { color: var(--text-dark); }
