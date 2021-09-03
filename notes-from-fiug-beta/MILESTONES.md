@@ -13,9 +13,9 @@ why I open Chrome Dev Tools | why I keep Chrome Dev Tools open
 why I open github.com | why I keep github.com open
 --------------------------------------------------
 - [ ] impossible to upload a binary through fiug.dev
-- [ ] impossible to delete a file and persist to github
-- [ ] impossible to delete a folder and persist to github
 - [ ] check if gh-pages has built
+- [X] impossible to delete a file and persist to github
+- [X] impossible to delete a folder and persist to github
 
 
 why I open VS Code | why I keep VS Code open

@@ -748,7 +748,7 @@ highest paid:
 - [X] Erlang
 - [X] WebAssembly
 - [X] Kotlin
-- [X] Rust,
+- [X] Rust
 - [X] F#
 - [X] Elixir
 
