@@ -1,13 +1,17 @@
+What if the running instance of fiug were considered a remote?  To change running instance, push to that remote:
+[git push to different remote](https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server)
 
-fonts
------
-- [create and edit truetype fonts](https://www.online-tech-tips.com/computer-tips/how-to-create-your-own-fonts-and-edit-truetype-fonts/)
 
 
 
 https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da
 
 https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/
+
+fonts
+-----
+- [create and edit truetype fonts](https://www.online-tech-tips.com/computer-tips/how-to-create-your-own-fonts-and-edit-truetype-fonts/)
+
 
 Cognitive Behavior Therapy
 --------------------------
@@ -717,8 +721,6 @@ web assembly
 
 languages, syntax highlighting, etc
 ===================================
-
-- http://www.pfnp.me/mother-tongues-the-evolution-of-programming-languages/
 
 - http://rigaux.org/language-study/diagram.html <<< COOL LANGUAGE MAP!
 
