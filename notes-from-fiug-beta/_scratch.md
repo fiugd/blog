@@ -1,12 +1,17 @@
+
+
 What if the running instance of fiug were considered a remote?  To change running instance, push to that remote:
 [git push to different remote](https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server)
-
-
-
 
 https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da
 
 https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/
+
+
+regex, regular expression, regexp
+---------------------------------
+- [build regex from text](https://regex-generator.olafneumann.org/)
+
 
 fonts
 -----
