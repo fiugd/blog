@@ -166,6 +166,10 @@ li.post {
 }
 li.post time { opacity: .5; }
 li.task-list-item {  padding-bottom: 0.25em;  }
+.task-list .task-list {
+    padding-left: 1em;
+    padding-top: 0.25em;
+}
 ul.tags, ul.posts, ul.task-list { list-style: none; padding: 0; }
 ul.tags { display: none; }
 ul.tags li {
