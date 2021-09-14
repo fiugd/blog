@@ -4,14 +4,14 @@
 started: TBD
 release: TBD
 
-THEME: PREVIEW
-SUB-THEMES:
+> enhance/fix preview + node
 
-> enhance preview features
-
-- hot reload
-- preview changes affect document
-
+- [ ] node worker + babel
 - [ ] file change listeners seem to be broken by preview
 	- need details
 	- see [preview breaking in demo video](https://youtu.be/7T-L-MBFoE4?t=512)
+
+STRETCH GOAL / MOVE TO BACKLOG:
+
+- hot reload / incremental reload
+- preview changes cause document change
