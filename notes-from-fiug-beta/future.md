@@ -1,3 +1,26 @@
+# customer facing concerns still at large
+- getting started
+- panes and pane related
+- starting a github repo with fiug
+	- from scratch
+	- from folder on local hard drive
+- uploading files into a repo
+- removing a repo
+- viewing / cleaning up storage
+- search performance
+- performance (be specific about this)
+- tree dragging/droping
+- issues with .keep files and ##PLACEHOLDER## files
+- editor horizontal scroll
+- terminal
+	- arrow keys
+	- tab completion
+	- links (to something within app)
+- themes
+- extensions/plugins/store
+- open from fiug badge on github
+
+
 
 # similar to what I've already built
 - https://blog.stackblitz.com/posts/introducing-webcontainers/
