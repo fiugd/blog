@@ -7,6 +7,19 @@ https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da
 
 https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/
 
+discord gitter etc
+------------------
+
+[youtuber + discord + zapier](https://gist.github.com/methdev/2e82914189c072231855002ccd21f18c)
+https://andyczerwonka.com/discord-for-software-development-teams-34eb025d6440
+https://gitter.im/crosshj/Lobby
+
+
+computer history
+----------------
+how I started with computers [Commodore VIC-20](https://youtu.be/yg04GyhS3ss?t=739)
+
+
 ui ux mockup tools
 ------------------
 - https://alternativeto.net/software/invision/
