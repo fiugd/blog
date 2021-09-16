@@ -37,6 +37,9 @@ category: planned
 - open from fiug badge on github
 
 # themes
+
+[a cool theme gallery](https://themes.vscode.one/)
+
 At some point, I'd like to tackle themes.  Here are some thoughts on that.
 
 An example of switching user preference for color scheme:
@@ -75,8 +78,6 @@ from [web.dev color scheme](https://web.dev/color-scheme/)
 - https://tonsky.me/blog/font-size/
 - option to use fonts with ligatures eg. https://github.com/tonsky/FiraCode
 
-# themes
-- https://themes.vscode.one/
 
 # tabs
 - tabs can be reordered
@@ -108,7 +109,7 @@ from [web.dev color scheme](https://web.dev/color-scheme/)
 
 <div style="
 	margin-top: 3em;
-	background: url(./images/process.png);
+	background: url(/images/process.png);
 	width: 100%;
 	height: 225px;
 	background-size: 600px;
