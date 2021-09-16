@@ -19,7 +19,7 @@ nav:
 # - { title: 'Welcome',              href: '/' }
 - { title: 'Present',             href: '/present/' }
 - { title: 'Planned',             href: '/planned/' }
-- { title: 'Released',           href: '/released/' }
+- { title: 'Releases',           href: '/releases/' }
 - { title: 'Random',             href: '/random/' }
 - { title: '@github', href: 'https://github.com/crosshj/fiug-blog/tree/main/docs' }
 
