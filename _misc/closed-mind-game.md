@@ -1,6 +1,6 @@
 ---
 
-title: "Close Your Mind, The Game™"
+title: "Closed Mind, The Game™: Software Dev Edition"
 description: "a game about closing The Mind"
 image:
 video:
@@ -8,8 +8,6 @@ video:
 ---
 
 <div id="brain-lock"></div>
-
-### Closed Mind, The Game: Software Dev Edition
 
 > "Let's play the game and never think about the game. OMG Cancer!" - John Wayne
 
@@ -21,11 +19,11 @@ body of the mind: _groups and individuals that make up the group_
 when is it safe/best to have a closed vs open mind?   
 
 ##### RULES:
-	1) there is a button with words written on it: _*JUST LET ME DO MY DAMNED JOB!*_
-	2) at any point this button can be pressed by any player to exit a topic
-	3) topic switches when an X number of players have hit the button
-	4) during the course of the game, players take turns discussing concepts such as those below
-	5) the game proceeds until only X players are left standing and/or all topics are exhausted
+1. there is a button with words written on it: _*JUST LET ME DO MY DAMNED JOB!*_
+2. at any point this button can be pressed by any player to exit a topic
+3. topic switches when an X number of players have hit the button
+4. during the course of the game, players take turns discussing concepts such as those below
+5. the game proceeds until only X players are left standing and/or all topics are exhausted
 
 ##### TOPICS:
 - testing, test patterns, test practices, test coverage, unit vs integration tests, etc
