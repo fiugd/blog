@@ -11,11 +11,8 @@ old way
 
 
 new way
+<ul>
 {% for release in site.releases %}
-  <h2>
-    <a href="{{ release.url }}">
-      {{ release.name }}
-    </a>
-  </h2>
-  <p>{{ release.content | markdownify }}</p>
+  <li><span>{{ release.date | date_to_string }}</span> &nbsp; <a href="{{ release.url }}">{{ release.title }}</a></li>
 {% endfor %}
+</ul>
