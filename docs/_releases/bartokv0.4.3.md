@@ -1,39 +1,22 @@
----
-layout: post
-title: "Version 0.4.3"
-description: "file operations; focus blurred a bit and added/fixed a few other things"
-image: https://user-images.githubusercontent.com/1816471/115645234-02556880-a2ee-11eb-9e7d-e5c434632cf2.png
-video: 7T-L-MBFoE4
+![Release Image](https://user-images.githubusercontent.com/1816471/115645234-02556880-a2ee-11eb-9e7d-e5c434632cf2.png)
 
-date: 2021-08-19
-
+# bartok v0.4.3
 started: 2021-04-20   
-released: 2021-08-19   
+release: 2021-08-19   
+video: https://www.youtube.com/watch?v=7T-L-MBFoE4.  
 
+THEME: FILE OPERATIONS | CLEANUP  
+SUB-THEMES:
+  - git++
+  - SW++
+  - editor++
+  - terminal++
+  - preview++
 
-categories:
-  - released
----
-
-**file operations** have migrated to the service worker and are now fully unit-tested within fiug.  These are operations that create, read, update, delete (CRUD) files and folders.  CRUD opartions used to be handled in a somewhat half-hazard way in the core of the app.  Now they have moved to service worker where they are cleaned up and modularized.  This functionality is fully unit-tested within fiug using [qUnit](https://qunitjs.com/) in a barebones fashion.  I'm pleased with how much running and writing unit tests within fiug closely resembles testing in VS Code with mocha or jest.
-
-File operations have been a bane to me in the past.  I think it's impossible and/or very frustrating to do this sort of thing correctly while targeting a user interface; unit tests are a much better target at least at first.  I can safely say that this is behind me minus some edge cases that I don't think it's wise to tackle right now.
-
-**git** supports operations mentioned above.  This means the changes you make in fiug will persist to your github repository when you push a commit.  
-
-**preview** has shifted from being a terminal menu item to being a terminal command that is invoked.  Previously I was thinking of preview as something triggered by selecting it in the UI.  Recently, I have shifted the way I think about developing fiug to a terminal-first approach.  I shifted preview to a terminal execution model and that means I don't have to answer some of the questions relating to an "always on" or "always available" model.  This means that preview was rewritten to be a command that is invoked in the terminal and events are only monitored when preview is running.
-
-**terminal** has moved to an iframe versus a module.  I will probably do this with all of the core UI components.  Settling on abstractions that make sense is a pain... That said, I think iframes offer the right degree of separation from the rest of the application for now.  Maybe some day I will switch to web components.  I am happy to speak at length about what all this means for terminal, but I will forgo writing about it for now.
-
-**editor state** refers to tracking and restoring things like history and scroll position.  I already had written a codemirror plugin for this, but it was disabled because it was buggy.  Now it's enabled and a little less buggy.
-
-**mini-map** was added and is mostly done, but it's still a little buggy.
-
-**context menu** items were connected where possible and hid otherwise (versus being disabled).  There were a few casualities where functionality steps backwards, but I'm not terribly concerned about those right now.
-
-<!-- more -->
-
-### Changes
+> get file operations tighter
+> terminal first dev approach
+> migrate towards SW where applicable
+> quality
 
 - [X] version (status bar and terminal) comes from package.json
 - [X] changes in queue are reflected in file store after commit
@@ -86,7 +69,7 @@ File operations have been a bane to me in the past.  I think it's impossible and
 - [X] cd into parent/child results in going parent/parent/child
 - [X] cd to / (root) then git commit/diff mess up
 - [X] editor tabs close others, close all
-- [X] explorer: fix new folder/file icons
+- [X] explorer: fix new folder|file icons
 - [X] when file is selected for preview, use full path of file
 - [X] on commit, update file and changes stores
 - [X] git commit should offer message on success/fail
@@ -95,4 +78,3 @@ File operations have been a bane to me in the past.  I think it's impossible and
 	- this specifically occurs with bartokv0.4.3.md
 	- also occurs in other situations
 	- switch services and come back (seems to trigger this)
-
