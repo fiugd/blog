@@ -25,17 +25,20 @@ nav:
 
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # all project files
       type: "posts" # of post type
     values:
       layout: "post"
       excerpt_separator: <!-- more -->
+  - scope:
+      path: ""
+      type: "releases"
+    values:
+      layout: "post"
 
 collections:
   releases:
-    layout: "post"
     output: true
 
 
