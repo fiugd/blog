@@ -9,5 +9,5 @@ title: blog
 {% include about-blog.md %}
 {% endcomment %}
 
-{% include posts.html %}
+<!-- {% include posts.html %} -->
 
