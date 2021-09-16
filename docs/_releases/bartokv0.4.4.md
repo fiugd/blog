@@ -1,78 +1,158 @@
-![Release Image](https://user-images.githubusercontent.com/1816471/115645234-02556880-a2ee-11eb-9e7d-e5c434632cf2.png)
+---
 
-# bartok v0.4.4
-started: TBD
-release: TBD
+category: present
+title: "Version 0.4.4"
+description: "improve repo clone performance"
+image: https://user-images.githubusercontent.com/1816471/115645234-02556880-a2ee-11eb-9e7d-e5c434632cf2.png
+video:
 
-THEME: PERFORMANCE | QUALITY | FINE-TOOTHED COMB
-SUB-THEMES:
-	- git++
-	- SW++
-	- editor++
-	- plugins
-
-> continue the work locking in "quality" started in (but not the main focus of) v0.4.3
-
-tasks:
-- remove files from service manifest that don't need to be there
-- move templates to their own repo
-- refactor modules into their own folders, remove "shared" folder (or drastically reduce size)
-- editor horizontal scroll
-- keep repo files on github until needed
-- merge editor changes with git changed(?)
-- feed exclusively on update event
-	- editor tabs: order, open, changed, new, pinned
-	- tree: service name, selected, changed, new, open, scroll?
-	- editor: selected, history, scroll, etc
-	- terminal: current dir (if not in session), service name
+date: 2021-08-23
+started: 2021-08-23
+released:
+updated: 2021-09-15
 
 ---
 
-- BE SMART
-	- DO NOT: download all github files when cloning repo
-		- balance this against offline usage
-	- DO NOT: download all files in service manifest on first load
-		- balance this against offline usage
-		- especially do not download files needed for templates
-	- DO: load editor modes as needed, cache and cleanup
-	- DO: clean up editor state as needed
-		- when undo file change reverts to unchanged state, this file is touched but no longer changed
-		- when a touched file is closed, it is no longer touched
-	- DO: clean up orphaned files
-		- files that are not opened and not in tree should be removed from store
-	- [X] DO NOT: save files to wrong location with empty contents (BUG SOMEWHERE CAUSES THIS)
-	- DO NOT: keep state in many different places
-		- which files are open: tracked in SW and tabs
-		- which files are changed: tracked in SW and tabs
-		- editor changes and file changes in different stores
+FOCUS:  
 
-- IF IT IS VISIBLE, IT WORKS WELL
-	- settings: should show status of pulling/cloning
-	- search: chokes sometimes (use GH search api?)
-	- tabs: still weird issues / dancing
-	- tree: parent folder not indicating changed child
+remove/modify operations which incur a big performance hit, like cloning all file contents versus downloading as used.   
 
-- REMOVE DEAD CODE
-	- terminal module
-		- cleanup following rewrite/shift in mindset
-		- includes removing old preview code
-	- editor
-		- load doc should be handled strictly by plugin
-		- state should come from outside module
-	- editor tabs
-		- shift to rely strongly on SW state
-	- tree | explorer
-		- anything left from previous iteration?
+support for git command options clone and config to coincide with "terminal-first" effort mentioned elsewhere.   
 
-- [ ] delay occurs before editor loads sometimes
-	- issue seems to occur because of file store get
-- [ ] copy is hooked up in tree
-- [ ] tree(?) fires multiple events
-	- when dragging from one folder to another
+TODO:   
+- [X] remove files from service manifest that don't need to be there
+- [X] move templates to their own repo
+- [X] keep repo files on github until needed
+- [X] service worker build system
+- [X] init modules refactor (each major comdule to its own folder)
+- [X] DO NOT: download all github files when cloning repo
+- [X] DO NOT: save files to wrong location with empty contents (BUG SOMEWHERE CAUSES THIS)
+- [X] git clone: download a repo that doesn't already exist
+- [X] when git commit fails should not blow away changes
+- [ ] service worker should:
+	- [X] ignore contents of .git folder
+	- [ ] use .git/config for credentials
+- [ ] git diff should not show .git folder changes
+- [X] "root" terminal; change the way terminal determines currently loaded service
+- [ ] git config, esp at root (for intial clone and storing user info/creds)
+  - [X] local file update
+  - [ ] global file update
+  - [ ] update service tree (so that new file appears in tree)
+  - [ ] file changes work with editor state
+  - [ ] show file explorer at root
+- [ ] file "##PLACEHOLDER##"
+  - [ ] should not be used for diffs
+  - [ ] possible there are other issues with this
+- [ ] service worker should clean up previous cache stores (but not app state)
 
----
 
-write a custom CM mode that works by wrapping another syntax highlighter:
-http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply-styles-on-keywords.html
+### WORKED ON, BUT UNPLANNED:
+- editor
+	- auto-indent
+	- invisibles opacity
+	- [yaml mode](https://codemirror.net/mode/yaml/index.html)
+		- see also [https://github.com/nodeca/js-yaml](https://github.com/nodeca/js-yaml)
+		- see also [https://github.com/eemeli/yaml](https://github.com/eemeli/yaml)
+	- [ini mode](https://codemirror.net/mode/properties/index.html)
+- tree
+	- icons: yaml, editorconfig, license, .gitignore, .git/config
+- favicon for beta
+- isometric git exploration
+- plugins/extensions exploration
 
-(or dynamically loads any given mode?)
+
+
+<!-- more -->
+
+### isometric git exploration
+
+I had a fun time talking myself into and out of integrating [isometric git](https://isomorphic-git.org/en/).
+
+
+I'll say first what motivated me to explorer isogit.  This system doesn't leverage any library for its git or file system abstractions.
+Nuff said?  I feel like this point could and already has been labored.  Got a meme about wheel invention we can throw at this paragraph?
+
+That being said, I'm not convinced that what git does is also what an web/cloud IDE should do.  I'm looking at you, .git folder.
+It all feels way more verbose than I think appropriate here, at least for now.
+
+Here's what I'd like to do, indeed why I am exploring this:
+1. grab all the metadata about files and dirs in repo
+2. only download the files when they are used
+3. offer an option to go offline (download all the files)
+
+And here's what I understand about what [git clone](https://git-scm.com/docs/git-clone) does:
+1. grab all the metadata about files, dirs, and history of changes in repo
+2. download all the files in their current state and (somehow) all info needed to reconstruct history
+
+git and isogit grab "everything" and I only want to grab what is needed unless I have to for offline mode.  But that's not all they do.
+They also offer a mature interface and a sort of workflow for doing all that.  With fiug, I do not have that mature interface implemented.
+And I'd really like to NOT have to re-invent that.
+
+isogit "comes with" a file system as well, [lightning-fs](https://github.com/isomorphic-git/lightning-fs).
+This filesystem abstraction provides a good share of what one might need when using a filesystem. These should look familiar to anyone that has fooled around in a unix terminal:   
+
+- readFile
+- writeFile
+- unlink
+- readdir
+- mkdir
+- rmdir
+- stat
+- lstat
+- readlink
+- symlink
+- chmod
+
+fiug has a good portion of these, but it's missing symlinks, file modes, and file status.  Repeat what was said about not reinventing.
+
+Here's why I did not take the plunge and commit fiug to either isogit, lightning-fs, or even [browserFS](https://github.com/jvilk/BrowserFS).
+Changing what I have to support what I mentioned I'd like to do above means a small change.  And commiting to any of the alternatives means a bigger change.
+So it makes more sense to do the small change and revisit the large change after I take off the execution hat and put back on the product hat.
+
+I don't feel terribly great about this, but I'm confident that it's the right way to move forward.
+Make sure that progress on the thing at hand is made, then decide if the future awesome is worth it later.
+This may mean that I move `git pull` out of this version, but I will definitely have `git clone` and it will work as expected unless you look under the hood.
+
+
+### build versus transpile
+
+I've been working on supporting two similar features: `import` resolution in workers and module bundling.  I'll detail both of these and then talk about what I think is interesting about both taken together.
+
+First, a little background on imports.  I've used es6 modules as much as possible in writing browser code for fiug.
+I've been surprised how possible it is to write and run code in the browser without the need to transpile or build.
+Imagine, writing front-end code without needing a backend to translate for you!
+My thinking is that transpiling can happen as part of the last step before final release, if not never.
+We can argue whether this is a pipe dream or not, but I can say for sure it [breaks down](https://github.com/WICG/import-maps) in the web worker context.
+In short, Web workers struggle with importing in a way that feels comfortable with me.  In searching for a better feel, I reach the need to rewrite code that imports other modules.  Service worker and babel to the rescue.
+With this solution I can write import statements that look like what I'd write with the backend build system.  I can use import maps almost like a package.json.
+To put it briefly, the dream is alive and it feels pretty solid.
+
+The service worker story is a bit different, though.  Since the SW is what does the transpiling for workers, it's a case of who transpiles the transpiler.
+I decided I would create a build script for the service worker and check the output of that in ahead of time.  I arrived at using rollup.
+To be frank, the rollup experience was much more pleasant.  With rollup, I solve almost the same problem by writing a plugin that resolves modules.
+With babel, I have to dig deeper into the weeds by writing a plugin that is closer to code parsing.  This begs a question.
+
+Why not just use rollup for both?
+
+The best answer I can currently give is that babel is closer to the "metal" than rollup.  To me, that means it's the better solution for on-the-fly translation of code.
+Still, I prize the notion of reducing cognitive overhead and maintenance cost.  I struggle to balance cogntivie load versus performance.
+That said, I'll live with doing both until I have a better answer.
+
+I thought it was an interesting thing to think about regardless.  I've tried to keep it short, but I am happy to offer more detail if asked.  I'm still working on improving my technical communication skills.
+
+Here's the solution I am settling on:
+1) service worker has it's own build using rollup
+	- can build within fiug
+	- should also work through a github action
+2) workers are ran using "node" command
+	- "node" will access `/-/worker/{path to script}` to get a transpiled worker
+	- service worker will use babel to resolve all depenendencies (will rewrite specifiers)
+
+As I dig deeper into this, I see a need to somehow cache dependencies into a vendor file that is somehow checked in.
+I saw this issue with skypack.dev not finding files which terminal needs.  This resulted in terminal showing blank.
+This may be solved as I work out builds for each of the major components: tree, editor, and terminal.
+
+Also, I see an issue with editor cache not being invalidated when service-worker build script is ran.
+This makes it look like the build script did not run. `https://beta.fiug.dev/service/change` needs an option to invalidate editor cache, I think.
+
+## move to backlog
