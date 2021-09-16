@@ -33,6 +33,10 @@ defaults:
       layout: "post"
       excerpt_separator: <!-- more -->
 
+collections:
+  releases:
+    output: true
+
 
 #########################
 # more settings
