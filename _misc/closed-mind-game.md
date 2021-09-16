@@ -1,7 +1,7 @@
 ---
 
 title: "Closed Mind, The Game™: Software Dev Edition"
-description: "a game about closing The Mind"
+description:
 image:
 video:
 
