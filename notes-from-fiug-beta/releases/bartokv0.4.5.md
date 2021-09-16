@@ -6,6 +6,9 @@ release: TBD
 
 > enhance/fix preview + node
 
+- [ ] ...
+- [ ] close/open/delete "services" via terminal
+- [ ] deprecate old settings view
 - [ ] node worker + babel
 - [ ] file change listeners seem to be broken by preview
 	- need details
