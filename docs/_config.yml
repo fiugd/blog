@@ -36,6 +36,7 @@ defaults:
       type: "releases"
     values:
       layout: "post"
+      excerpt_separator: <!-- more -->
 
 collections:
   releases:
