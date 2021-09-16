@@ -13,7 +13,7 @@ version:
   beta: 0.4.4
   prod: 0.4.3
   
-collections_dir: ..
+collections_dir: ../
 
 nav:
 # - { title: 'Welcome',              href: '/' }
