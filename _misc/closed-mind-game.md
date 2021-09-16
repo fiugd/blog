@@ -16,7 +16,8 @@ video:
 ##### PREMISE:
 soul of the mind: _topics | policies | discussions | theory | debates | decisions_   
 body of the mind: _groups and individuals that make up the group_   
-when is it safe/best to have a closed vs open mind?   
+
+goal: _when is it safe/best to have a closed vs open mind?_   
 
 ##### RULES:
 1. there is a button with words written on it: _*JUST LET ME DO MY DAMNED JOB!*_
