@@ -1,5 +1,17 @@
+---
 
-- [X] files that have same name across tree will show bugs!
+title: "bugs"
+description: "known issues"
+image: https://bit.ly/fiugGearsWorld
+video:
+
+started:
+released:
+date: 2099-01-01
+
+category: planned
+
+---
 
 - file add -> rename -> delete - issues somewhere in this flow
 

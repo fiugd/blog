@@ -1,3 +1,19 @@
+---
+
+title: "backlog"
+description: "features and fixes to think about when release planning"
+image: https://bit.ly/fiugGearsWorld
+video:
+
+started:
+released:
+date: 2099-01-01
+
+category: planned
+
+---
+
+
 # customer facing concerns still at large
 - getting started
 - panes and pane related
