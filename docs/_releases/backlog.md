@@ -20,6 +20,53 @@
 - extensions/plugins/store
 - open from fiug badge on github
 
+# themes
+At some point, I'd like to tackle themes.  Here are some thoughts on that.
+
+An example of switching user preference for color scheme:
+from [web.dev color scheme](https://web.dev/color-scheme/)
+
+``` javascript
+<script>
+	const meta = document.querySelector('meta[name="color-scheme"]');
+	let colorScheme = 'light';
+	meta.content = colorScheme
+	if (!window.frameElement) {  
+		window.setInterval(() => {    
+			colorScheme = colorScheme === 'light' ? 'dark' : 'light';
+			document.documentElement.style.colorScheme = colorScheme; 
+			meta.content = colorScheme;
+			const root = window.frames[0].document.documentElement;
+			root.style.colorScheme = colorScheme;
+			root.querySelector('meta[name="color-scheme"]').content = colorScheme;
+		}, 3000);
+	}
+</script>
+```
+
+
+# css
+- audit css - https://css-tricks.com/tools-for-auditing-css/
+- dynamic css
+	- css is returned as a service by SW
+	- settings affect what css is returned
+	- this benefits themes probably most of all
+
+# fonts
+- allow customizing fonts
+- https://input.djr.com/preview/
+- https://www.elegantthemes.com/blog/wordpress/best-programming-fonts
+- https://tonsky.me/blog/font-size/
+- option to use fonts with ligatures eg. https://github.com/tonsky/FiraCode
+
+# themes
+- https://themes.vscode.one/
+
+# tabs
+- tabs can be reordered
+- tabs can be pinned
+- tabs grouped (like chrome tab groups)
+- opened tabs saved on a per project basis
 
 
 # similar to what I've already built
@@ -90,3 +137,4 @@
 - tree
 	- focus to folder
 	- file status colors
+

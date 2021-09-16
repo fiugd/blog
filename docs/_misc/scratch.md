@@ -1,4 +1,11 @@
+---
 
+title: "scratch"
+description: "thoughts that have not been sorted and arranged much"
+image:
+video:
+
+---
 
 What if the running instance of fiug were considered a remote?  To change running instance, push to that remote:
 [git push to different remote](https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server)

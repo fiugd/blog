@@ -37,9 +37,18 @@ defaults:
     values:
       layout: "post"
       excerpt_separator: <!-- more -->
+  - scope:
+      path: ""
+      type: "scratch"
+    values:
+      layout: "post"
+      excerpt_separator: <!-- more -->
 
 collections:
   releases:
+    output: true
+    permalink: /:collection/:title
+  scratch:
     output: true
     permalink: /:collection/:title
 

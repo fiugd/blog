@@ -1,3 +1,11 @@
+---
+
+title: "rants"
+description: "anything that irritates me"
+image:
+video:
+
+---
 
 ### 2020-12-03 - the road less traveled | painting yourself into a corner | hidden costs
 
@@ -51,3 +59,4 @@
 	- gender issues
 
 - see closeYourMindGame.md
+

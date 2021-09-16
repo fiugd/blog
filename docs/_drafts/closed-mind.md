@@ -56,3 +56,4 @@ when is it safe/best to have a closed vs open mind?
 
 ##### BONUS ROUND:
 can anyone tell us who won?
+

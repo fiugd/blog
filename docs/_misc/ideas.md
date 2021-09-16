@@ -1,6 +1,11 @@
-![image](https://user-images.githubusercontent.com/1816471/117058416-95c66a80-acec-11eb-887e-fddc40627cdc.png)
+---
 
-_a running list of all the explorations I would like to dig deeper into_
+title: "ideas"
+description: "a running list of all the explorations I would like to dig deeper into"
+image: https://user-images.githubusercontent.com/1816471/117058416-95c66a80-acec-11eb-887e-fddc40627cdc.png
+video:
+
+---
 
 ### Simulations
 - N-copter
@@ -127,11 +132,22 @@ _a running list of all the explorations I would like to dig deeper into_
 	- [Parallel, distributed and GPU computing technologies...](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703572/) 
 
 
+### Modular Synth
+- https://www.sweetwater.com/store/detail/Behr2600--behringer-2600-analog-semi-modular-synthesizer
+
+
 ---
 
 ### wish
-- have a team or multiple teams
-- have assistants or managers
+- dream org
+	- I'd like to put all of this into the human realm, have a company or company
+	- create an org chart
+	- multiple teams
+		- computer hardware and software(possibly with sub-teams)
+		- wood-working
+		- industrial design
+		- ...
+	- assistants or managers
 
 ---
 
@@ -148,3 +164,4 @@ _a running list of all the explorations I would like to dig deeper into_
 - analysis: data and systems
 - robotics
 - think tank | crowd source
+

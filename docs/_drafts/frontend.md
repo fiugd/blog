@@ -82,3 +82,4 @@ how should controllers be composed?
 react does diffs before View versus others that diff after model
 https://www.youtube.com/watch?v=mVVNJKv9esE
 
+
