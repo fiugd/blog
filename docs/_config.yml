@@ -35,6 +35,7 @@ defaults:
 
 collections:
   releases:
+    layout: "post"
     output: true
 
 
