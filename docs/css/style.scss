@@ -1,0 +1,191 @@
+---
+###
+# note: will result in an all-in-one-file stylesheet e.g. style.css
+#   in _config.yml add:
+#     sass:
+#       sass_dir: css
+#       style:    expanded
+---
+
+
+@import 'settings';
+@import 'colors';
+@import 'posts';
+
+/* =Reset
+-------------------------------------------------------------- */
+ 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+ 
+html, body, div {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------------------------------------------------- */
+
+.center-container {
+    width: 100%;
+}
+#header, #footer, #nav, #content {
+    display: flex;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+ .center-container {
+     width: 75%;
+ }
+ #header, #footer, #nav, #content {
+     justify-content: center;
+ }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .center-container {
+     width: 60%;
+     max-width: 60em;
+ }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+}
+
+
+/* ------------------------------------------------------------- */ 
+body{
+  font-family: $font-family;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+#header, #footer, #nav, #content {
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+ padding: 1.2em;
+ margin-bottom: auto;
+ overflow: auto;
+}
+#header, #footer, #nav {
+ a, a:visited { text-decoration: none; }
+ a:hover { text-decoration: underline; }
+}
+
+#header {
+ padding: 1.2em 0.3em;
+ a { color: inherit; }
+ a:hover { text-decoration: none; color: var(--blue); }
+}
+#nav {
+ padding: 0.5em 1em;
+ a { color: inherit; }
+ a:hover { color: var(--blue); }
+}
+
+.center-container > h1,
+.center-container > h2,
+.center-container > h3,
+.center-container > h4,
+.center-container > h5 {
+  margin-top: 2em;
+}
+
+#header .big {
+  font-size:   140%;
+  font-weight: bold;
+}
+#header .small { font-size:    90%; padding-left: 15px; }
+#footer {
+  height: 3em;
+  min-height: 3em;
+}
+
+.logo {
+  display: inline-block;
+  background: currentColor;
+  -webkit-mask-image: url(/images/favicon.svg?v={{ site.time | date:'%s' }});
+  mask-image: url(/images/favicon.svg?v={{ site.time | date:'%s' }});
+  width: 2em;
+  height: 2em;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  margin-bottom: -0.5em;
+  margin-right: 0.2em;
+  // margin-left: 0.5em;
+}
+
+blockquote {
+  padding: 0.5em 1em;
+  margin: 0.5em 0em;
+  p:last-child { margin-bottom: 0; }
+}
+
+.post-img {
+    width: 100%;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+input.task-list-item-checkbox { margin-right: 0.5em; }
+li.post, li.task-list-item { list-style: none;}
+li.post {
+    margin-bottom: 1em;
+    background: #6771;
+    padding: 1.5em;
+    border-radius: 5px;
+}
+li.post time { opacity: .5; }
+li.task-list-item {  padding-bottom: 0.25em;  }
+.task-list .task-list {
+    padding-left: 1em;
+    padding-top: 0.25em;
+}
+ul.tags, ul.posts, ul.task-list { list-style: none; padding: 0; }
+ul.tags { display: none; }
+ul.tags li {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 0.05em 0.5em;
+    font-size: .9em;
+    opacity: 0.8;
+}
+code.language-plaintext {
+    font-size: 1.1em;
+    border: 1px solid #6667;
+    padding: .1em .3em;
+    margin-left: .3em;
+    margin-right: 0.3em;
+    border-radius: 3px;
+    background: #6662;
+}
