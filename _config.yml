@@ -17,10 +17,10 @@ version:
 
 nav:
 # - { title: 'Welcome',              href: '/' }
-- { title: 'Present',             href: '/present/' }
-- { title: 'Planned',             href: '/planned/' }
+# - { title: 'Present',             href: '/present/' }
+# - { title: 'Planned',             href: '/planned/' }
 - { title: 'Releases',           href: '/releases/' }
-- { title: 'Random',             href: '/random/' }
+- { title: 'Other',             href: '/misc/' }
 - { title: '@github', href: 'https://github.com/crosshj/fiug-blog/tree/main/docs' }
 
 
