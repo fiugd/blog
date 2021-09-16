@@ -41,6 +41,7 @@ defaults:
 collections:
   releases:
     output: true
+    permalink: /:collection/:name
 
 
 #########################
