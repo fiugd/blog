@@ -13,6 +13,11 @@ category: planned
 
 ---
 
+<!-- ![image](https://bit.ly/fiugLanscape1) -->
+<!-- ![image](https://bit.ly/fiugLanscape2) -->
+<!-- ![image](http://bit.ly/fiugLandscape3) -->
+<!-- ![image](http://bit.ly/fiugLandscape4) -->
+
 
 # customer facing concerns still at large
 - getting started
