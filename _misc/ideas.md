@@ -165,3 +165,29 @@ video:
 - robotics
 - think tank | crowd source
 
+-------
+
+Little Experiments
+==================
+I want to be able to do little experiments
+ - and easily share them
+ - and not have to deal with build system
+ - and not spin up a server
+ - and later grow them
+
+---------------
+Examples of little experiments:
+- [ ] broken clock right twice a day
+- [ ] simulate a collection of people as faulty mirrors
+- [ ] architect stage of some project
+- [ ] emulate kubernetes, explore kubernetes pattern
+- [ ] services with central config service pattern
+- [ ] scrape a bunch of sites and do wizardry (data composition & representation)
+- [ ] write a bunch of ideas then visually group and connect them
+- [ ] write a bunch of little modules then visually group and connect them
+- [ ] collect a ton of stuff and have something make me come back to them or recall them
+- [ ] search for unicode icons without leaving text editor
+- [ ] view fonts in editor
+- [ ] view/change/convert colors and color palettes in editor
+- [ ] write web code the way I want to, use files the way I want to
+	- ^^^ might be useful to expand on this
