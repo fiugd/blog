@@ -2,7 +2,7 @@
 
 title: "market"
 description: "what is fiug (not)?"
-image: https://user-images.githubusercontent.com/1816471/117058416-95c66a80-acec-11eb-887e-fddc40627cdc.png
+image: https://img.youtube.com/vi/7T-L-MBFoE4/maxresdefault.jpg
 video:
 
 ---
