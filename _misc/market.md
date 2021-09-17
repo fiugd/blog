@@ -61,6 +61,7 @@ video:
 	- [slingcode](https://slingcode.net/)
 	- [codefence](https://codefence.io/)
 	- [tio](https://tio.run/#)
+	- [riju](https://github.com/hirako2000/riju)
 
 ### Nocode platform / Multiexperience Development Platforms (MXDP)
 - examples
