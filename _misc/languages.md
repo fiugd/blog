@@ -2,10 +2,12 @@
 
 title: "languages"
 description: "languages, syntax highlighting, etc"
-image: https://user-images.githubusercontent.com/1816471/133835253-f25bd66f-3bd6-49a2-98a3-6ef1e8f58c97.png
+image: https://user-images.githubusercontent.com/1816471/133836251-a5e3275a-6da0-4b38-a5f7-a5eaba2090e9.png
 video:
 
 ---
+
+<!-- image: https://user-images.githubusercontent.com/1816471/133835253-f25bd66f-3bd6-49a2-98a3-6ef1e8f58c97.png -->
 
 
 - http://rigaux.org/language-study/diagram.html <<< COOL LANGUAGE MAP!
