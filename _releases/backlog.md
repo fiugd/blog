@@ -117,11 +117,57 @@ http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply
 
 # exiled from v0.5.0 release planning
 
+- [ ] on editor scroll, show minimap viewport indicator overlay, disappear when scroll is done
+- [ ] preview: when current doc matches matcher, show it after preview command exec'ed
+
+- [ ] rewrite imports in worker scripts using service worker:
+	- [ ] [lexer](https://github.com/guybedford/es-module-lexer)
+	- [ ] [import maps](https://github.com/WICG/import-maps)
+	- [ ] babel + plugin
+
+- [ ] focus on / zoom to a folder (in explorer)
+- [ ] search has performance issues
+- [ ] uploading images + binary files
+- [X] click to select file from command palette opener
+
+- [ ] terminal should get cwd and service name from query params
+- [ ] terminal left/right arrows for editing buffer
+
+- [ ] editor tabs order of next tab closing should make sense
+- [ ] explorer: add expand/collapse
+- [ ] explorer: overscroll seems to not be working
+- [ ] explorer: scroll bar hide/show causes status circle to dance (on Mac)
+- [ ] explorer > right-click > Open In Preview
+	- should work with new terminal preview command
+
+- [ ] context menu for terminal
+- [ ] terminal passes hotkey events to parent
+	- control-s: save
+	- control-p: open file
+	- control-shift-p: command window
+
+- [ ] reveal in sidebar is broken
+- [ ] editor tabs: keep open, pin, reveal in sidebar
+
+- [ ] clean up for editor document state
+- [ ] make sure editor undo history works properly
+
+- [ ] terminal tab completion
+
+- [ ] service worker should provide endpoint for directory contents list
+- [ ] path resolution needs to be a module or endpoint; this needs to be a solved issue
+
+
+- [ ] git clone + git pull + status + push (in terminal)
+- [ ] git pull should bring in new changes (okay to reject if changes exist on local)
+- [ ] on repo "clone", don't pull all files
+	- instead get from github as needed (except for templates)
+
+
+# exiled from v0.6.0 release planning
+
 - [ ] themes fixed
 - [ ] cleaner loading view
-- [X] import files
-- [X] export files
-- [ ] !!! bartok version at bottom left should be connected to real something
 - [ ] golden layout or similar for pane splitting
 - [ ] rename project/service
 - [ ] auto-detect tabs vs spaces
@@ -135,11 +181,6 @@ http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply
 	- https://github.com/sindresorhus/cli-spinners/blob/HEAD/spinners.json
 - [ ] deploy pipeline
 	- https://jenkins.io/projects/blueocean/
-
-
-
-
-
 
 
 
@@ -224,7 +265,7 @@ from [web.dev color scheme](https://web.dev/color-scheme/)
 	background-repeat: no-repeat;
 "></div>
 
-# input freeform
+# freeform input of ideas here
 - quickly take notes, edit/create images, explore visual ideas, explore logical idea
 - make slides easily
 - make charts/graphs easily
@@ -262,3 +303,361 @@ from [web.dev color scheme](https://web.dev/color-scheme/)
 	- focus to folder
 	- file status colors
 
+
+# 2021-02-26 todo
+- [X] straighten the way that files are stored in service worker (full path for id)
+- [X] templates that work across services
+- [X] fix preview/lock
+
+- [ ] version endpoint in SW - version and commit hash
+- [ ] https://github.com/marketplace/actions/gh-pages-deploy
+- [ ] https://dev.to/pierresaid/deploy-node-projects-to-github-pages-with-github-actions-4jco
+
+- [ ] load file without service being open
+- [ ] better "first view" for people that are new
+- [ ] better loading view
+- [X] favicon
+	- https://austingil.com/svg-favicons/
+
+- [ ] switching between services is awkward
+
+- dumbdown, tree languages - https://github.com/treenotation/jtree
+
+
+# 2020-10-11 todo
+- [ ] split editor (mutliple editor panes)
+- [ ] editor: diff view
+- [X] preview performance issues
+- [ ] javascript/modular templates (vs html-only)
+- [X] terminal watch file
+- [ ] preview hot reloading
+- [ ] dynamic/virtual files (to feed into preview)
+- [ ] settings integration with service worker
+- [ ] delay loading all services
+- [ ] improved/cleaner service map
+- [ ] system services connected to each other
+- [ ] service details in service map
+- [ ] command palette commands
+- [ ] arrange images on single image (use spritemap techniques/code)
+- [ ] clean up and connect listeners/triggers
+- [ ] themes: font/colors
+- [ ] automatic add vendor deps to service manifest (cached offline)
+- [ ] package storage (like package.json/node_modules)
+- [ ] share project (zip/torrent)
+- [ ] one template/multiple file extensions supported
+- [X] connect context menu commands
+- [ ] connect action bar things
+
+- [X] minimap
+- [ ] go to line number
+- [X] all terminal commands working well (like unix)
+- [X] working directory in terminal prompt
+- [X] delay loading service on initial load (loading all code-BAD)
+- [X] editor: hover highlights expand/collapse indicators
+- [X] git support integrated
+- [X] messaging between template and editor
+- [X] file search connected
+- [X] import css in jsx files
+- [X] untracked files (Untitled-1)
+- [X] paste image / file
+- [X] tabs versus spaces switching
+
+# 2020-09-17 TODO
+- less tabs, close all tabs
+- create/delete file/folder works with provider
+- [x] issue with preview, binary file shows in preview instead
+- settings tab issue on refresh
+- CRUD, connecting service nodes working in service map (decide what it means to connect from code POV)
+- [X] switch between tabs and spaces
+
+# 2020-09-17 TODO
+- [ ] *.todo, *.slides, *.graph - all services should come with "native" support for these
+	- graphs - https://en.wikipedia.org/wiki/Category:Infographics
+- [ ] *.settings - treat settings as templated files with a common UI?
+- [X] connect git
+	- https://github.com/isomorphic-git/isomorphic-git
+	- real/beefy FS abstraction layer
+
+# 2020-08-22 TODO
+- [X] save a file with Bartok Basic Server provider
+- [x] project switch
+- [X] list of curent providers in settings
+
+- tons of issues
+	- [X] tab closing closes tabs that shouldn't close
+	- [X] preview doesn't show if project doesn't have templates (global templates)
+	- [X] project loads index.js even if it doesn't exist
+	- [X] tabs are not recalled for projects other than welcome project
+	- [X] switching between preview and terminal is broken in some cases
+	- [X] settings view has tab switching problems
+	- [X] preview fails after fresh boot
+
+- preview full screen
+	- [ ] should hide most UI elements; only show fullscreen controls
+	- [ ] fullscreen state is wonky
+
+
+# 2020-08-01_1829 TODO
+- [X] trying to get service worker fully fleshed out
+- [X] make terminal not rely on callback pattern
+	- [X] instead, it should fire an event and only pop that event off pending queue when answer is heard
+	- [X] should have a timeout with this
+- [X] seperate template listening and DOM updating from terminal code
+
+# 2020-07-19_1731 TODO
+recall all things
+- [X] editor tabs (remember open, selected, and scroll position)
+- [X] editor (load last loaded file)
+- [X] preview (load last loaded preview)
+- [X] panes (window width same as previous, recall positions)
+
+connect all context menu items
+- huge list...
+
+create|update|delete for service API in serviceHandler
+- need this before service worker fork can be merged
+
+reset page for ui
+- [ ] kill service worker cache (or maybe don't use this)
+- [ ] kill/reload serviceHandler
+- [X] kill tree cache (sessionStorage)
+- [X] kill all the recalled things (above)
+- [X] kill service worker (which will be reloaded with boot())
+- [X] kill moduleCache (localStorage) (maybe should be sessionStorage)
+- [X] reloadServices true versus false
+
+BUG: loading page shows loading bar multiple times
+
+
+# 2020-07-14_1902 TODO
+- [ ] editor collaborative
+- [X] mini map
+- [ ] download ZIP
+- [ ] react template loading spinner
+- [ ] search in folder
+- [ ] share service
+- [ ] shared libs should load in offline mode
+- [ ] smoother development flow on file change
+- [ ] storage usage indicators: memory & file system
+- [ ] todo app: export to bartok file system
+- [ ] todo app: groups
+- [ ] todo app: item edit
+- [ ] upload a folder
+- [ ] upload binary files
+- [X] ability to close last file
+- [X] bypass "let's go" button on repeat usage
+- [X] command palette
+- [X] default view for no service selected
+- [X] edit bartok in bartok
+- [X] editor code folding
+	- https://codemirror.net/doc/manual.html#addon_foldcode
+- [X] fix: closing (and opening?) a folder should not save that folder as selected
+- [X] folders open when contained file is selected
+- [X] full screen for preview
+- [X] preview binary files: image, font, audio, video
+- [X] preview uses service worker
+- [X] recall open files
+- [X] recall pane sizes
+- [X] recall pinned preview
+- [X] recall scroll position per file
+- [X] recall selected file
+- [X] search in file
+- [X] switch indent between tabs and spaces
+- [X] todo priority
+- [X] todos import
+- [X] export todo's: JSON
+- [X] export todo's: markdown
+- [X] fix issue with explorer pane resizing
+- [X] read bartok ui (now called "fugue") in bartok
+- [X] recall open tree folders
+- [X] rename file-examples to be more descriptive
+- [X] status bar line and column number update
+- [X] todo scrolling
+
+
+# 2020-07-01 TODO
+- [ ] bitcoin/blockchain in browser (and why?)
+- [ ] inline font: https://www.webucator.com/blog/2016/11/inline-web-font-avoid-fout/
+- [ ] open a folder from local hard drive
+	- https://www.html5rocks.com/en/tutorials/file/filesystem/#toc-dir-reading
+	- https://www.html5rocks.com/en/tutorials/file/filesystem-sync/
+- [ ] webtorrent
+	- in a worker: https://github.com/webtorrent/webtorrent/issues/1248
+	- see browser-server and aether-torrent from ^^^
+- [ ] web loading time
+- [ ] share
+- [ ] export zip
+- [ ] import zip
+- [ ] web build system / service layer
+- [ ] services graph / service selection
+- [ ] template creation flow & overall template design
+	- allow preview to interact with other bartok web components
+- [ ] settings
+	- define a backend
+	- define a workflow
+- [ ] log in (auth with an identity provider)
+- [ ] collaboration
+	- https://github.com/lesmana/webrtc-without-signaling-server
+	- https://github.com/cjb/serverless-webrtc
+	- https://peerjs.com/
+- [ ] open a page that is just the file in editor or preview mode; options editor + preview (or other mashup)
+- [ ] web persistence layer
+	- [X] localforage in serviceworker
+	- browserFS?
+- [x] indent using tabs
+- [X] code folding
+- [X] finish tree context menu
+- [X] images/binary files
+- [X] open preview in new window / share
+- [X] codemirror elegance & bug where editor shows blank
+- [X] non editor tabs
+- [X] read bartok web in bartok web
+- [X] write bartok web in bartok web
+- [X] require an npm package (and use it)
+
+# DEPLOY | VERSION CONTROL
+- https://app.diagrams.net/#G18h5403wK012mFwEuMETVVnQiyZmXPJOy
+<!-- ![image](https://user-images.githubusercontent.com/1816471/116312252-31e6f380-a77a-11eb-946d-2eedc07ab5b5.png) -->
+
+
+# exiled from scratch.md
+### AN ATTEMPT AT FOCUS
+#### What is an MVP for Bartok?
+- CRUD services: editor, preview, templates?
+- visualize services & connections: service map
+- monitor services: service map
+- deploy services: ???
+- manage services: scale, scale policy, etc: ???
+#### What are the nice-to-have sink holes?
+- complete parity with items shown in MARKETING.md
+- going too far with any given item listed in MVP statement
+- open-endedness of the platform
+- cool things to make release videos look nicer (preview)?
+#### Potential Sinkhole Hard Examples:
+- meta
+	- how do UI services work? how much of Bartok UI is built with them?
+	- can I build bartok with bartok editor?
+- editor
+	- could spend too much time (too much?) building an editor and putting all the cool things in it
+	- perhaps editor should have it's own MVP/sink-hole evaluation
+	- parity: does it do all the beloved editor things?
+	- completeness: does it do everything right?
+	- innovation: does it do cool things that other editors do not do?
+- visuals
+	- less concern about time waste here because visuals have appeal
+	- would like to fully grasp how far is too far
+	- there needs to be a basic set of items in service map
+	- how they look is not as much important as how they connect
+- monitor
+	- similar case as with visuals
+	- this depends on visuals being in place
+	- need to be able to read logs
+	- need to be able to view resource usage
+- deploy
+	- similar case as with visuals
+	- is this a distinct item from manage (below)?
+	- need to figure out how to do this
+	- this depends on screens that have not been built
+- manage
+	- what does it mean to manage?
+		- scale
+		- scale policy
+	- similar case as with visuals
+	- need to figure out how to do this
+	- this depends on screens that have not been built
+#### What are currently the biggest "win" items?
+- ... (not sure the following reflects the answer to this question)
+- service save in chunks (because some files are huge)
+- [ ] service templates
+- [ ] logs streaming from server
+- [ ] metrics streaming from server
+- [ ] service map showing real stats
+- [ ] UI ran from within bartok ecosystem (soft exploration into first-class services)
+- [ ] server ran from within bartok ecosystem (more serious foray into first-class services)
+- [X] files need id's for uniqueness <<< HUGE!!!
+- [X] service map showing real services
+- [X] file templates (UI services)
+- [X] file preview (htm, svg, react)
+- [X] direct file system based service (to enable next two wins)
+### FILE CHANGES
+ - [X] only keep changed tabs open, reuse previous/unchanged tabs
+ - [X] tabs stay open across reload
+ - [X] scroll/cursor position remembered
+ - [X] allow closing last tab
+### PACKAGE.JSON / CONFIG
+ - [ ] package.json should be ideal and not strict?
+	 - (comments, unquoted, single quotes, trailing commas, etc)
+ - [ ] package.json should be service.json? .bartok.yml ?
+ - [X] service should get its name from package.json
+### TEMPLATES
+ - [ ] templates for services? routeHandler, uiTemplate, plainNode, etc
+ - [ ] eject templated app? (export)
+### preview
+ - [X] better release notes recording videos - page of code SUCKS!
+ - [X] sidepane shows preview for React Component, HTML, markdown, etc
+ - [X] use iframe: https://stackoverflow.com/questions/5050380/set-innerhtml-of-an-iframe
+ - [X] links are clickable in editor (NOPE - in preview instead)
+ - document renders/previews differently for certain doc types
+	 - [X] [.md] - show rendered html and allow to switch
+	 - [X] [.svg]
+	 - [X] [.jsx] - do react!
+	 - [X] [.ipynb] - jupyter notebook
+		 - https://github.com/jsvine/notebookjs
+		 - https://github.com/finnp/ipynb
+	 - [.tp.json] (made up) - sprite editor and mapped preview (texture packer)
+### unsorted
+- [ ] bundling in browser
+	- http://webpack.github.io/playground/
+ 	- https://github.com/systemjs/systemjs
+- [ ] inline controls for codemirror - https://github.com/enjalot/Inlet
+- [IP] show binary files as HEX
+- [X] show preview in side (instead)
+- [ ] node in the browser (and for that matter, the other language runtimes or emulators)
+	https://blog.cloudboost.io/how-to-run-node-js-apps-in-the-browser-3f077f34f8a5
+- [X] diff - http://cemerick.github.io/jsdifflib/demo.html
+- [x] import/require/ read files from within preview
+	- eg. `<img src="crosshj/fiug-beta/.NOTES/images/process.png" />`
+	- eg. `import { foo } from 'someServicePath/file.mjs'`
+- [ ] import and export services
+- [ ] backup and restore
+- [ ] recycle bin / trash can
+- [ ] backup sqllite file ?
+- [x] panes remember position
+- [ ] pane splitting (as with a framework that allows open-ended pane manipulation)
+- [X] code diff
+- [X] page resize doesn't respect min width for explorer
+- [ ] explorer can be hidden more beautifully, will auto-show and dismiss
+- [X] terminal/preview can be hidden
+- [X] terminal can take up full screen
+- [ ] link files - files which store links and show them in preview
+- [X] mini-map / preview within files
+- [ ] https://12factor.net/ - obey???
+- [ ] remember scroll and cursor positions per file
+- [X] command pallete
+- [X] find in file dialogs
+	- error dialogs / message popups
+	- notifications
+- [ ] keep up with VS CODE: icons, fold/match lines, folder arrows
+- [X] code folding & fold all, etc
+- keyboard shortcuts:
+ - [ ] ctrl-g: go to line
+ - [x] ctrl-p: command pallet
+ - [ ] https://codemirror.net/demo/sublime.html
+ - [ ] https://codemirror.net/doc/manual.html#option_extraKeys
+- [ ] draggable tabs (to reorder)
+- [ ] draggable files and folders (maybe)
+- [ ] popup to indicate certain keyboard shortcuts are pressed
+- [ ] connect codemirror to a language server ( LSP )
+	- see crosshj/fiug-beta/.welcome/1ncubate/editor/editor.language.server.js
+	- code completion, etc
+- [ ] stream contents of big files to codemirror (possible?)
+- language support:
+	- Rust, Julia, Swift, APL, ML, lisp, C#, OCaml, F#, other??
+	- https://codemirror.net/mode/index.html
+- [ ] color picker in file edit mode
+- [ ] make it easy to edit svg's in CSS
+- [x] ascii representation of service nodes
+	- http://asciiflow.com/ - draw ascii nodes
+	- https://github.com/ivanceras/svgbob - convert to svg
+- [ ] https://www.dwitter.net/ - 2d graphics in 150 characters
+- [ ] spritesheet tool? https://www.leshylabs.com/apps/sstool/
