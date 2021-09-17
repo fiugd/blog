@@ -112,8 +112,7 @@ video:
 - [paas and caas in 15 minutes](https://tanzu.vmware.com/content/intersect/paas-and-caas-in-15-minutes)
 
 
-2020-08-24 thoughts about who customer is
-=========================================
+### thoughts about who a fiug customer is <!-- 2020-08-24 -->
 - new to programming
 - average dev tired of BS
 	- having to install to get started
@@ -125,9 +124,9 @@ video:
 - teams or team builders that want it to be easy for any/all of the above
 
 
-models for marketing similar software
-=====================================
+### models for marketing
 - [promlens](https://promlens.com/) - I enjoy both the look-and-feel of marketing AND the product itself
+
 
 <!-- preaching...  I'm not sure I want this on the blog right now
 strategy
