@@ -22,9 +22,13 @@ video:
 * fiug takes inspiration from all of the following in some regard
 * fiug will most likely not do any one of these things as well as any one of these do
 
+## Sidenote
+* some of the following applies less to "fiug" more to "bartok" a service composer and backend for fiug
+* bartok is currently lower priority than fiug in terms of development attention
+
 ## Fiug IS (NOT)
 
-### Editor | IDE
+### Editor / IDE
 - modify and manage files sometimes with other integrations/features
 - examples
 	- [vscode](https://code.visualstudio.com)
@@ -34,7 +38,12 @@ video:
 	- [atom](https://atom.io)
 	- [brackets RIP](http://brackets.io)
 
-### IDE | Playground | Code Runner
+### Editor Extension
+- feature addon for another editor
+- examples
+	- [codeswing](https://github.com/codespaces-contrib/codeswing)
+
+### Playground / Code Runner / IDE
 - online editor and web-based code share/run
 - [wiki source code playgrounds](https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds)
 - examples
@@ -61,7 +70,7 @@ video:
 	- [bubble.io](https://bubble.io/)
 	- [kintone](https://www.kintone.com/)
 
-### Mindmap | Knowledge Management Tool
+### Mindmap / Knowledge Management Tool
 - examples
 	- [dendron](https://dendron.so)
 	- [roam](https://roamresearch.com/)
@@ -80,10 +89,6 @@ video:
 ### APM
 - application performance management
 - examples: weavescope, splunk, datadog, kubernetes dashboard, ELK/EFK/Kibana
-
-### Editor Extension
-- examples
-	- [codeswing](https://github.com/codespaces-contrib/codeswing)
 
 ### XaaS
 
