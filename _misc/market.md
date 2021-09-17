@@ -1,6 +1,15 @@
-*A cloud service you don't have to register for.*
-*The editor / IDE you didn't have to install.*
-*A tool that could change the way you work.*
+---
+
+title: "market"
+description: "what is fiug (not)?"
+image: https://user-images.githubusercontent.com/1816471/117058416-95c66a80-acec-11eb-887e-fddc40627cdc.png
+video:
+
+---
+
+*A cloud service you don't have to register for.*  
+*The editor / IDE you didn't have to install.*  
+*A tool that could change the way you work.*  
 
 ## Introduction
 * fiug does(will do) things that other things do.
@@ -13,7 +22,7 @@
 * fiug takes inspiration from all of the following in some regard
 * fiug will most likely not do any one of these things as well as any one of these do
 
-## Fiug (IS | IS NOT)
+## Fiug IS (NOT)
 
 ### Editor | IDE
 - modify and manage files sometimes with other integrations/features
@@ -128,23 +137,50 @@ strategy
 
 Projects like VS Code or Eclipse Theia are already big, well-funded and bound to the use-case which they were designed for.
 
-For example, I looked for easy ways to pull a tree view from many currently existing editors.  The difficulty I faced, I think, was due more to what I mentioned above than my own lack of understanding and capability (I am admittedly biased in this).  These projects are bound to the their paycheck and to the org structure of the teams that create them.
+For example, I looked for easy ways to pull a tree view (component) from many currently existing editors.  The difficulty I faced, I think, was due more to what I mentioned above than my own lack of understanding and capability (I am admittedly biased in this).  These projects are bound to the their paycheck and to the org structure of the teams that create them.
 
-To be clear, Microsoft is not in the business of offering VS Code's components to developers; they are in the business of being the defacto editor that developers use.  Of course, Monaco, but not the rest of VS Code, afaict.
+To be clear, Microsoft is not in the business of offering VS Code's components to developers; they are in the business of being the defacto editor that developers use.
+
+My issues with Microsoft, for example, are less in some cases and more in others.  The language server protocol (LSP), Moncao, and contribs to xterm.js are examples where my issues are lesser.  I am more troubled with extensions, tree (mentioned before), and feature bloat.
+
+To be fair, I remind you that Microsoft is not the only corporation I take issue with.  For example, I was very excited to see Eclipse Theia when it came out.  I wanted to use it.  I found very quickly that their IDE was tied to a backend service and this was something I strongly wanted to avoid.  I didn't see a btter example there either of giving back to the community in terms of a tree component, for example.
+
+Also, I'm in no way striking out from a sense of anger or revenge.  I respect what people at Microsoft and Eclipse have done.  I just can't use their product to further my vision of developer life.
+
+As my own worst enemy, I could shoot holes all through what I've said here.  But spending time doing this makes me a pro-consumer and not a creator.  I refuse to let that be the case; please forgive.
+
+In short, prior art is fine.  I just want to do something different and hopefully better in some regard.  Have I released a tree component yet?  NOPE.
 
 
 ### user adoption
 
-Editors and editor preference are bound to a scarcity model which inspires commitment from their users.  An editor has to be purchased, installed, and/or learned.
+Editors and editor preference are bound to a scarcity model which inspires commitment from their users.  An editor has to be purchased, installed, and/or learned.  This cost is often overlooked when editor flame wars spark up.
 
 My goal is to create a system that has a very low cost to adopt; in fact, one that subverts adoption.  One of the reasons I turn to Chrome Developer tools and/or an index.html on my hard drive is that I prefer no-adopt where possible, even if I have already adopted.
 
-Low barrier-to-entry, low adoption pressure and tight feedback loop are very important to me.  This tool is an extension of that workflow and philosophy, and not an app that is meant to be installed or adopted, per se.
+Low barrier-to-entry, zero adoption pressure and tight feedback loops are very important to me.  This tool is an extension of that workflow and philosophy, and not an app that is meant to be installed or adopted, per se.
+
+I don't want to create new paradigms that developers have to learn.
+
+I don't want users of this editor to feel lost when they use other editors or IDE's.
+
+I don't want to force people to give me money.
+
+I don't want to force people to sign in to my service to use this tool.
+
+I don't want to secretly collect data outside of general usage statistics.
+
+Of course there are caveats to all of what I've said, but please understand that creation of this tool is STRONGLY based on being sick of this kind of behavior.
+
+A tool should stand on its own merits.
+
+Creators should be rewarded based on the value they provide to others.
 
 
+<!-- 
+UPDATE THIS BEFORE UNCOMMENTING!!!
 overview
 ========
-
 
 The following graphic helps me think clearly about how bartok is put together and what it is.
 
@@ -203,7 +239,7 @@ Outside the service map, they exist as running instances of services that deploy
                 A1| A2|
                   v   |
           +-------+---+--------+   B1   +------------+
-          | Local Storage      +------->+            |
+          | Local Storage      +-------\>+            |
           +--------------------+        |  Browser   |
           |                    |   B2   |  Storage   |
           |                    +<-------+            |
@@ -212,7 +248,7 @@ Outside the service map, they exist as running instances of services that deploy
                 C1| C2|
                   v   |
           +-----------+--------+   D1   +------------+
-          | Bartok Backend     +------->+            |
+          | Bartok Backend     +-------\>+            |
           +--------------------+        |  Server    |
           |                    |   D2   |  Storage   |
           |                    +<-------+            |
@@ -255,3 +291,4 @@ Bartok Backend
    connected to browser through API's (depends on config)
    bootstrapped by server source
    can be edited and configured like any other service map
+ -->
