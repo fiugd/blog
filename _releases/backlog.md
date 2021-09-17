@@ -110,6 +110,31 @@ http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply
 	- anything left from previous iteration?
 
 
+# exiled from v0.5.0 release planning
+
+- [ ] themes fixed
+- [ ] cleaner loading view
+- [X] import files
+- [X] export files
+- [ ] !!! bartok version at bottom left should be connected to real something
+- [ ] golden layout or similar for pane splitting
+- [ ] rename project/service
+- [ ] auto-detect tabs vs spaces
+- [ ] linter - https://codemirror.net/demo/lint.html
+- [ ] show 80 char limit line
+- [ ] scrolled shadow at top to indicate file is scrolled down
+- [ ] mouse clicks on terminal to select menu items (?)
+- [ ] terminal: loading spinner & done checkmark
+	- https://stackoverflow.com/questions/2685435/cooler-ascii-spinners
+	- http://jsfiddle.net/sindresorhus/2eLtsbey/embedded/result/
+	- https://github.com/sindresorhus/cli-spinners/blob/HEAD/spinners.json
+- [ ] deploy pipeline
+	- https://jenkins.io/projects/blueocean/
+
+
+
+
+
 
 
 
