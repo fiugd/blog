@@ -143,7 +143,7 @@ To be clear, Microsoft is not in the business of offering VS Code's components t
 
 My issues with Microsoft, for example, are less in some cases and more in others.  The language server protocol (LSP), Moncao, and contribs to xterm.js are examples where my issues are lesser.  I am more troubled with extensions, tree (mentioned before), and feature bloat.
 
-To be fair, I remind you that Microsoft is not the only corporation I take issue with.  For example, I was very excited to see Eclipse Theia when it came out.  I wanted to use it.  I found very quickly that their IDE was tied to a backend service and this was something I strongly wanted to avoid.  I didn't see a btter example there either of giving back to the community in terms of a tree component, for example.
+To be fair, I remind you that Microsoft is not the only corporation I take issue with.  For example, I was very excited to see Eclipse Theia when it came out.  I wanted to use it.  I found very quickly that their IDE was tied to a backend service and this was something I strongly wanted to avoid.  I didn't see a better example there either of giving back to the community in terms of a tree component, for example.
 
 Also, I'm in no way striking out from a sense of anger or revenge.  I respect what people at Microsoft and Eclipse have done.  I just can't use their product to further my vision of developer life.
 
