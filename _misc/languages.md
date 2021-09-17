@@ -2,7 +2,7 @@
 
 title: "languages"
 description: "languages, syntax highlighting, etc"
-image:
+image: https://user-images.githubusercontent.com/1816471/133835253-f25bd66f-3bd6-49a2-98a3-6ef1e8f58c97.png
 video:
 
 ---
