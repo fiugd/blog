@@ -129,7 +129,7 @@ models for marketing similar software
 =====================================
 - [promlens](https://promlens.com/) - I enjoy both the look-and-feel of marketing AND the product itself
 
-
+<!-- preaching...  I'm not sure I want this on the blog right now
 strategy
 ========
 
@@ -175,6 +175,9 @@ Of course there are caveats to all of what I've said, but please understand that
 A tool should stand on its own merits.
 
 Creators should be rewarded based on the value they provide to others.
+
+All large systems should be doubted and there should be a continual effort to subvert them in some sense.
+-->
 
 
 <!-- 
