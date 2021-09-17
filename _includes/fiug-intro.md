@@ -43,7 +43,7 @@ The answers to those questions are reasonably simple.  Before the answers, thoug
 
 Now, here's the simple answer: fiug is an attempt to shortcut all that (and more)!
 
-There are other tools that do something similar, but I found them lacking.  So I began working on an alternative.
+There are [other tools that do something similar](/misc/market), but I found them lacking.  So I began working on an alternative.
 
 About the browser:  this is the fastest and most ubiquitous way to achieve the goal stated above.  For now, fiug is hosted here.  Maybe some day it will find other homes.
 
