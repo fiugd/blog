@@ -23,7 +23,7 @@ video:
 * fiug will most likely not do any one of these things as well as any one of these do
 
 ## Sidenote
-* some of the following applies less to "fiug" more to "bartok" a service composer and backend for fiug
+* some of the following applies less to "fiug" and more to "bartok" a service composer and backend for fiug
 * bartok is currently lower priority than fiug in terms of development attention
 
 ## Fiug IS (NOT)
