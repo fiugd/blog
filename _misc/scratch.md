@@ -2,7 +2,8 @@
 
 title: "scratch"
 description: "thoughts that have not been sorted and arranged much"
-image:
+image: https://user-images.githubusercontent.com/1816471/133834403-5f652484-769b-46ea-9094-c7aabdd140a5.png
+
 video:
 
 ---
