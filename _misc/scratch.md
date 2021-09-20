@@ -289,6 +289,7 @@ fantasy consoles
 - https://script-8.github.io/
 - https://www.lexaloffle.com/pico-8.php
 - https://discord.gg/sFeDxWK (fantasy consoles)
+- https://github.com/paladin-t/fantasy
 
 pixel art
 =========
