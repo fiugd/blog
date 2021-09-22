@@ -20,7 +20,6 @@ category: planned
 
 
 # customer facing concerns still at large
-- getting started
 - panes and pane related
 - starting a github repo with fiug
 	- from scratch
@@ -46,7 +45,6 @@ category: planned
 
 # exiled from v0.4.4
 
-- [ ] other git pull command
 - [ ] git config alias
 	- git config --global alias.br branch   
 	- git config --global alias.ci commit
@@ -75,9 +73,10 @@ category: planned
 	- editor: selected, history, scroll, etc
 	- terminal: current dir (if not in session), service name
 - [ ] write a custom CM mode that works by wrapping another syntax highlighter:
-http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply-styles-on-keywords.html
-(or dynamically loads any given mode?)
+	- http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply-styles-on-keywords.html
+	- (or dynamically loads any given mode?)
 - [ ] settings: should show status of pulling/cloning
+	- might not do this, instead show loading dots in terminal
 - [ ] search: chokes sometimes (use GH search api?)
 - [ ] tabs: still weird issues / dancing
 - [ ] tree: parent folder not indicating changed child
@@ -131,15 +130,14 @@ http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply
 - [ ] focus on / zoom to a folder (in explorer)
 - [ ] search has performance issues
 - [ ] uploading images + binary files
-- [X] click to select file from command palette opener
 
 - [ ] terminal should get cwd and service name from query params
 - [ ] terminal left/right arrows for editing buffer
+- [ ] terminal tab completion
 
 - [ ] editor tabs order of next tab closing should make sense
 - [ ] explorer: add expand/collapse
 - [ ] explorer: overscroll seems to not be working
-- [ ] explorer: scroll bar hide/show causes status circle to dance (on Mac)
 - [ ] explorer > right-click > Open In Preview
 	- should work with new terminal preview command
 
@@ -155,20 +153,10 @@ http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply
 - [ ] clean up for editor document state
 - [ ] make sure editor undo history works properly
 
-- [ ] terminal tab completion
-
 - [ ] service worker should provide endpoint for directory contents list
-- [ ] path resolution needs to be a module or endpoint; this needs to be a solved issue
-
-
-- [ ] git clone + git pull + status + push (in terminal)
-- [ ] git pull should bring in new changes (okay to reject if changes exist on local)
-- [ ] on repo "clone", don't pull all files
-	- instead get from github as needed (except for templates)
 
 
 # exiled from v0.6.0 release planning
-
 - [ ] themes fixed
 - [ ] cleaner loading view
 - [ ] golden layout or similar for pane splitting
@@ -244,10 +232,6 @@ if (!window.frameElement) {
 	- https://github.com/codesandbox/codesandbox-client/tree/master/standalone-packages/sandpack
 - https://browsix.org/ - Run C, C++, Go and Node.js programs as processes
 - https://github.com/jvilk/BrowserFS -  in-browser filesystem, NodeJS filesystem API, various backends
-
-# random
-- waiting is not a problem; waiting with desire to move forward is a problem
-- measure code change as risk, but shouldn't this also map to AST branch change (loose question)
 
 # picture editor
 - got to it before me: [https://docs.replit.com/tutorials/kaboom](https://docs.replit.com/tutorials/kaboom)
