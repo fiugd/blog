@@ -288,17 +288,17 @@ if (!window.frameElement) {
 - [X] templates that work across services
 - [X] fix preview/lock
 
-- [ ] version endpoint in SW - version and commit hash
+- [X] version endpoint in SW - version and commit hash
 - [ ] https://github.com/marketplace/actions/gh-pages-deploy
 - [ ] https://dev.to/pierresaid/deploy-node-projects-to-github-pages-with-github-actions-4jco
 
 - [ ] load file without service being open
-- [ ] better "first view" for people that are new
-- [ ] better loading view
+- [X] better "first view" for people that are new
+- [X] better loading view
 - [X] favicon
 	- https://austingil.com/svg-favicons/
 
-- [ ] switching between services is awkward
+- [X] switching between services is awkward
 
 - dumbdown, tree languages - https://github.com/treenotation/jtree
 
@@ -611,7 +611,7 @@ BUG: loading page shows loading bar multiple times
 - [ ] link files - files which store links and show them in preview
 - [X] mini-map / preview within files
 - [ ] https://12factor.net/ - obey???
-- [ ] remember scroll and cursor positions per file
+- [X] remember scroll and cursor positions per file
 - [X] command pallete
 - [X] find in file dialogs
 	- error dialogs / message popups
