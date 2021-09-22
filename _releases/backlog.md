@@ -46,8 +46,7 @@ category: planned
 
 # exiled from v0.4.4
 
-- [ ] tree changed files indicator icons are still jumping on Mac on hover/exit
-- [ ] other git commands: list, open, close, pull
+- [ ] other git pull command
 - [ ] git config alias
 	- git config --global alias.br branch   
 	- git config --global alias.ci commit
@@ -84,6 +83,7 @@ http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply
 - [ ] tree: parent folder not indicating changed child
 - [ ] delay occurs before editor loads sometimes
 	- issue seems to occur because of file store get
+	- issue may not exist now that browser storage is less used
 - [ ] copy is hooked up in tree
 - [ ] tree(?) fires multiple events
 	- when dragging from one folder to another
@@ -95,6 +95,9 @@ http://www.java2s.com/example/javascript/codemirror/codemirror-custom-mode-apply
 - [ ] DO: clean up editor state as needed
 	- when undo file change reverts to unchanged state, this file is touched but no longer changed
 	- when a touched file is closed, it is no longer touched
+- [ ] clear(?) editor state for files when changed outside editor
+- [ ] file "##PLACEHOLDER##", it's possible there are other issues with this
+- [ ] service worker should clean up previous cache stores (but not app state)
 - [ ] DO: clean up orphaned files
 	- files that are not opened and not in tree should be removed from store
 - [ ] DO NOT: keep state in many different places
