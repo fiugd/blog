@@ -120,12 +120,6 @@ category: planned
 # exiled from v0.5.0 release planning
 
 - [ ] on editor scroll, show minimap viewport indicator overlay, disappear when scroll is done
-- [ ] preview: when current doc matches matcher, show it after preview command exec'ed
-
-- [ ] rewrite imports in worker scripts using service worker:
-	- [ ] [lexer](https://github.com/guybedford/es-module-lexer)
-	- [ ] [import maps](https://github.com/WICG/import-maps)
-	- [ ] babel + plugin
 
 - [ ] focus on / zoom to a folder (in explorer)
 - [ ] search has performance issues
