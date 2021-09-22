@@ -37,7 +37,7 @@ category: planned
 	- tab completion
 	- links (to something within app)
 - themes
-- extensions/plugins/store
+- extensions/plugins/store, see [store incubate](https://github.com/crosshj/fiug-incubator/blob/main/1ncubate/store/store.js)
 - open from fiug badge on github
 
 
