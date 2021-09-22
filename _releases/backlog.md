@@ -44,7 +44,6 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.4
-
 - [ ] git config alias
 	- git config --global alias.br branch   
 	- git config --global alias.ci commit
