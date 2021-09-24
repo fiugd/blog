@@ -142,7 +142,7 @@ blockquote {
   p:last-child { margin-bottom: 0; }
 }
 
-.post-img {
+.post-img, .post-content p > img {
     width: 100%;
 }
 .video-container {
