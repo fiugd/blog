@@ -45,6 +45,7 @@ category: planned
 
 # exiled from v0.4.4
 - [ ] bug: clicking on doc loads a blank, see [this happening in demo](https://youtu.be/jPt3nVPCiZ4?t=384)
+- [ ] bug: .keep files not removed when file is created in empty dir
 
 - [ ] git config alias
 	- git config --global alias.br branch   
