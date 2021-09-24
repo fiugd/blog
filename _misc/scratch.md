@@ -259,7 +259,8 @@ web assembly
 	- https://wiki.nikitavoloboev.xyz/web/webassembly
 	- wabt vs binaryen
 	- https://github.com/appcypher/awesome-wasm-runtimes - seems very server bound
-
+- https://engineering.q42.nl/webassembly/ (assemblyscript plus webgl)
+- https://madewithwebassembly.com/ (showcase)
 
 web workers
 ===========
