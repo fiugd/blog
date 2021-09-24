@@ -44,6 +44,8 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.4
+- [ ] bug: clicking on doc loads a blank, see [this happening in demo](https://youtu.be/jPt3nVPCiZ4?t=384)
+
 - [ ] git config alias
 	- git config --global alias.br branch   
 	- git config --global alias.ci commit
