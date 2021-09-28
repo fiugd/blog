@@ -44,7 +44,7 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.4
-- [ ] bug: clicking on doc loads a blank, see [this happening in demo](https://youtu.be/jPt3nVPCiZ4?t=384)
+
 - [ ] bug: .keep files not removed when file is created in empty dir
 
 - [ ] git config alias
@@ -162,10 +162,6 @@ category: planned
 - [ ] show 80 char limit line
 - [ ] scrolled shadow at top to indicate file is scrolled down
 - [ ] mouse clicks on terminal to select menu items (?)
-- [ ] terminal: loading spinner & done checkmark
-	- https://stackoverflow.com/questions/2685435/cooler-ascii-spinners
-	- http://jsfiddle.net/sindresorhus/2eLtsbey/embedded/result/
-	- https://github.com/sindresorhus/cli-spinners/blob/HEAD/spinners.json
 - [ ] deploy pipeline
 	- https://jenkins.io/projects/blueocean/
 
@@ -264,11 +260,11 @@ if (!window.frameElement) {
 	- blog
 	- clearer release planning
 - terminal
-	- arrow keys
-	- tab to auto-complete
-	- customizable prompt
-	- recall history across sessions
-	- view recent commits
+	- [ ] arrow keys
+	- [ ] tab to auto-complete
+	- [ ] customizable prompt
+	- [ ] recall history across sessions
+	- [ ] view recent commits
 - editor
 	- horizontal scroll bar
 	- re-order tabs
@@ -291,8 +287,9 @@ if (!window.frameElement) {
 - [X] fix preview/lock
 
 - [X] version endpoint in SW - version and commit hash
-- [ ] https://github.com/marketplace/actions/gh-pages-deploy
-- [ ] https://dev.to/pierresaid/deploy-node-projects-to-github-pages-with-github-actions-4jco
+- [ ] github actions
+	- example https://github.com/marketplace/actions/gh-pages-deploy
+	- example https://dev.to/pierresaid/deploy-node-projects-to-github-pages-with-github-actions-4jco
 
 - [ ] load file without service being open
 - [X] better "first view" for people that are new
@@ -314,14 +311,13 @@ if (!window.frameElement) {
 - [ ] preview hot reloading
 - [ ] dynamic/virtual files (to feed into preview)
 - [ ] settings integration with service worker
-- [ ] delay loading all services
+- [X] delay loading all services
 - [ ] improved/cleaner service map
 - [ ] system services connected to each other
 - [ ] service details in service map
 - [ ] command palette commands
 - [ ] arrange images on single image (use spritemap techniques/code)
 - [ ] clean up and connect listeners/triggers
-- [ ] themes: font/colors
 - [ ] automatic add vendor deps to service manifest (cached offline)
 - [ ] package storage (like package.json/node_modules)
 - [ ] share project (zip/torrent)
@@ -345,9 +341,8 @@ if (!window.frameElement) {
 
 # 2020-09-17 TODO
 - less tabs, close all tabs
-- create/delete file/folder works with provider
-- [x] issue with preview, binary file shows in preview instead
-- settings tab issue on refresh
+- [X] create/delete file/folder works with provider
+- [X] issue with preview, binary file shows in preview instead
 - CRUD, connecting service nodes working in service map (decide what it means to connect from code POV)
 - [X] switch between tabs and spaces
 
@@ -374,7 +369,7 @@ if (!window.frameElement) {
 	- [X] preview fails after fresh boot
 
 - preview full screen
-	- [ ] should hide most UI elements; only show fullscreen controls
+	- [X] should hide most UI elements; only show fullscreen controls
 	- [ ] fullscreen state is wonky
 
 
@@ -393,7 +388,7 @@ recall all things
 - [X] panes (window width same as previous, recall positions)
 
 connect all context menu items
-- huge list...
+- [X] huge list...
 
 create|update|delete for service API in serviceHandler
 - need this before service worker fork can be merged
@@ -407,7 +402,7 @@ reset page for ui
 - [X] kill moduleCache (localStorage) (maybe should be sessionStorage)
 - [X] reloadServices true versus false
 
-BUG: loading page shows loading bar multiple times
+- [ ] BUG: loading page shows loading bar multiple times
 
 
 # 2020-07-14_1902 TODO
