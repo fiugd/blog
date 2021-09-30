@@ -52,6 +52,7 @@ category: planned
 		2. preview terminal/.example.html
 		3. observe failure when loading terminal/.example.js
 	- this was noted without as much detail in v0.4.4
+- [ ] should be able to delete a repo as well as pull it
 
 # exiled from v0.4.4
 
