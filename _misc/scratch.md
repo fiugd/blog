@@ -8,6 +8,11 @@ video:
 
 ---
 
+### would like to do a 3D version of this as an example for fiug
+[Legend Of Zelda Fan Art](https://dribbble.com/shots/14564003-Hylian-Crest-Legend-of-Zelda-fan-art)
+
+
+
 What if the running instance of fiug were considered a remote?  To change running instance, push to that remote:
 [git push to different remote](https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server)
 
