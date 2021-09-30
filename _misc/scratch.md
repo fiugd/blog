@@ -10,7 +10,7 @@ video:
 
 ### would like to do a 3D version of this as an example for fiug
 [Legend Of Zelda Fan Art](https://dribbble.com/shots/14564003-Hylian-Crest-Legend-of-Zelda-fan-art)
-
+[Making of ...](https://www.linkedin.com/posts/tatiana-bischak-20575448_illustration-legendofzelda-nintendo-ugcPost-6847153376778559488-W75S)
 
 
 What if the running instance of fiug were considered a remote?  To change running instance, push to that remote:
