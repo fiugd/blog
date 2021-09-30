@@ -43,6 +43,16 @@ category: planned
 
 <!-- more -->
 
+# exiled from v0.4.5
+- [ ] sometimes file is read as '##PLACEHOLDER##' and replacement is not fetched from github
+	- this seems to occur where file is read directly from store
+	- this means that user must visit file first before it is read
+	- an example of this occuring
+		1. clone crosshj/fiug-beta
+		2. preview terminal/.example.html
+		3. observe failure when loading terminal/.example.js
+	- this was noted without as much detail in v0.4.4
+
 # exiled from v0.4.4
 
 - [ ] bug: .keep files not removed when file is created in empty dir
