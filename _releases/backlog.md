@@ -43,6 +43,24 @@ category: planned
 
 <!-- more -->
 
+# nice to have 2021-10-04
+- history that remembers across sessions
+- export root to zip
+- import root from zip
+- upload file
+- upload folder
+- paste image
+- paste file
+- terminal tab completion
+- terminal left and right arrows (and insert/delete)
+- node scripts accept input (interactive)
+- a way to delete cloned repos
+- a way to delete app state (for refresh)
+- a way to update app
+- notification that a new version is available
+- ...
+
+
 # exiled from v0.4.5
 - [ ] sometimes file is read as '##PLACEHOLDER##' and replacement is not fetched from github
 	- this seems to occur where file is read directly from store
