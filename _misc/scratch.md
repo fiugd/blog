@@ -10,6 +10,7 @@ video:
 
 https://simulationcorner.net/index.php?page=sam
 Input: Bqr.qrff.Bqr.qrff.Bqr.qrff.szs.qrff.szse.Baoo.da.ba.sha.tra....Bqr.qrff.Bqr.qrff....boi...
+Input: xrl ll iiII IIII. II. I vriiit mrrrrkkk. Xkreeee. Xkruu.
 
 ### would like to do a 3D version of this as an example for fiug
 [Legend Of Zelda Fan Art](https://dribbble.com/shots/14564003-Hylian-Crest-Legend-of-Zelda-fan-art)
