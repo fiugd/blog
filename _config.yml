@@ -10,8 +10,8 @@ permalink: none
 # permalink: /:year/:month/:day/:title:output_ext
 
 version:
-  beta: 0.4.4
-  prod: 0.4.3
+  beta: 0.4.6
+  prod: 0.4.5
   
 # collections_dir: ../
 
