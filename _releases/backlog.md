@@ -55,7 +55,7 @@ category: planned
 	- esp. see [create-a-workflow-dispatch-event](https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event)
 	- this approach could be super-powerful for many different things
 - a way to paste an image in editor like can be done on github
-- a way to jump to current repo on github
+- a way to jump to current repo on github from fiug
 
 # nice to have 2021-10-04
 - history that remembers across sessions
