@@ -28,7 +28,8 @@ category: planned
 - removing a repo
 - viewing / cleaning up storage
 - search performance
-- performance (be specific about this)
+- performance
+	- be specific about what this means
 - tree dragging/droping
 - issues with .keep files and ##PLACEHOLDER## files
 - editor horizontal scroll
@@ -42,6 +43,19 @@ category: planned
 
 
 <!-- more -->
+
+# exiled from v0.4.6
+- should be able to delete a cloned repository
+- should be able to update service worker without opening chrome dev tools
+- ^^^ see "nice to have 2021-10-04", items starting with "a way to"
+- should be able to run code from terminal in context of main app (not in worker or iframe)
+- should be able to list triggers and listeners currently attached to app (see previous item, maybe)
+- run a github action from terminal
+	- see [github REST docs: actions](https://docs.github.com/en/rest/reference/actions)
+	- esp. see [create-a-workflow-dispatch-event](https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event)
+	- this approach could be super-powerful for many different things
+- a way to paste an image in editor like can be done on github
+- a way to jump to current repo on github
 
 # nice to have 2021-10-04
 - history that remembers across sessions
