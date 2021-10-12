@@ -22,6 +22,12 @@ What if the running instance of fiug were considered a remote?  To change runnin
 
 https://gist.github.com/xavierfoucrier/c156027fcc6ae23bcee1204199f177da
 
+
+database
+--------
+https://www.liquibase.com/ - brings CI/CD/versioning to databases
+https://www.prisma.io/ - ORM (like mongoose)
+https://stackfame.com/knexjs-complete-tutorial - query builder
 https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/
 
 discord gitter etc
@@ -176,11 +182,15 @@ Service Worker
 - https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf
 
 
+
 UNSORTED
 ========
 
 - https://thiscouldbebetter.github.io/ - lots of cool stuff here; I like this approach of trying everything
 - https://gist.cafe/ - run code snippets on your server, embed in web
+- how to implement a programming language
+	- [http://lisperator.net/pltut/](http://lisperator.net/pltut/)
+	- [http://angg.twu.net/miniforth-article.html](http://angg.twu.net/miniforth-article.html) - bootstraping a forth in 40 lines of Lua
 
 - https://www.x3dom.org/
 - http://create3000.de/x_ite/getting-started/#xhtml-dom-integration
