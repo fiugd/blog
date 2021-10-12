@@ -32,7 +32,11 @@ video:
 - https://learnworthy.net/top-10-most-popular-language-of-2019-according-to-github/
 - https://madnight.github.io/githut/#/pull_requests/2020/2
 - reason - https://reasonml.github.io/en/try (COMPILES IN BROWSER!)
-- bootstrapping a forth - https://news.ycombinator.com/item?id=24452741
+- how to implement a programming language
+	- [http://lisperator.net/pltut/](http://lisperator.net/pltut/)
+	- [http://angg.twu.net/miniforth-article.html](http://angg.twu.net/miniforth-article.html) - bootstraping a forth in 40 lines of Lua
+	- bootstrapping a forth - https://news.ycombinator.com/item?id=24452741
+
 
 highest paid:
 - [ ] Scala

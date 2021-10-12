@@ -168,21 +168,23 @@ Service Worker
 
 - websocket from service worker?
 
+## serverless framework and aws lambdas
+- https://github.com/Dynobase/serverless-dynamodb-api-boilerplate
+- associated article => https://dynobase.dev/dynamodb-serverless-framework/
+- https://www.serverless.com/
+- https://docs.aws.amazon.com/cdk/latest/guide/home.html
+- https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf
+
+
 UNSORTED
 ========
 
 - https://thiscouldbebetter.github.io/ - lots of cool stuff here; I like this approach of trying everything
 - https://gist.cafe/ - run code snippets on your server, embed in web
-- how to implement a programming language
-	- [http://lisperator.net/pltut/](http://lisperator.net/pltut/)
-	- [http://angg.twu.net/miniforth-article.html](http://angg.twu.net/miniforth-article.html) - bootstraping a forth in 40 lines of Lua
 
 - https://www.x3dom.org/
 - http://create3000.de/x_ite/getting-started/#xhtml-dom-integration
 - https://docs.stackery.io/docs/quickstart/quickstart-nodejs/
-- https://www.serverless.com/
-- https://docs.aws.amazon.com/cdk/latest/guide/home.html
-- https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf
 
 - may be useful with all the stringifying - https://github.com/jsbin/jsbin/blob/master/public/js/vendor/stringify.js
 
