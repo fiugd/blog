@@ -1,20 +1,27 @@
-### WIP Diffifult People
+### Difficult People (DP)
+
+"an unexamined life is not worth living"
+\- Socrates also see “When Nietzsche Wept” by Irvin Yalom
 
 > Some people are difficult.
 > Some people are harsh.
-> I think there has to be some value in being this way.
-> Maybe this is about being genuine despite the need for being considerate.
+> Given results DP achieve, must be some value to being a DP.
+> Perhaps, being DP is about being genuine at the cost of politeness.
 
-- Harlan Ellison
-	- https://www.youtube.com/watch?v=ys5JtmliHvU&list=TLPQMDMwODIwMjF7Oi4bRIjcag&index=18
+- case study: Harlan Ellison
+	- [Harlan Ellison's Watching](https://www.youtube.com/watch?v=ys5JtmliHvU&list=TLPQMDMwODIwMjF7Oi4bRIjcag&index=18)
 
-- Steve Jobs
+- case study: Steve Jobs
 
 - Science
-	- science in some form, presents us with a peaceful way of being difficult
+	- science in some form, offers an ordered method of being difficult
 	- https://www.youtube.com/watch?v=yCsgoLc_fzI
 
-- Enemies of Being Difficult
-	- politcal correctness
-	- cancel culture
+- Artist / Creative
+	- strong opinions/passion
+	- (perhaps) less time being methodical in justifying/presenting motivations
 
+- Enemies of Being Difficult
+	- political correctness
+	- cancel culture
+	- apathy / complacence
