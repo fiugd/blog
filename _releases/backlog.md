@@ -21,18 +21,15 @@ category: planned
 
 # customer facing concerns still at large
 - panes and pane related
+- editor horizontal scroll
 - starting a github repo with fiug
 	- from scratch
 	- from folder on local hard drive
 - uploading files into a repo
 - removing a repo
 - viewing / cleaning up storage
-- search performance
-- performance
-	- be specific about what this means
-- tree dragging/droping
 - issues with .keep files and ##PLACEHOLDER## files
-- editor horizontal scroll
+- tree dragging/droping
 - terminal
 	- arrow keys
 	- tab completion
@@ -40,6 +37,9 @@ category: planned
 - themes
 - extensions/plugins/store, see [store incubate](https://github.com/crosshj/fiug-incubator/blob/main/1ncubate/store/store.js)
 - open from fiug badge on github
+- search performance
+- performance
+	- be specific about what this means
 
 
 <!-- more -->
@@ -91,7 +91,7 @@ category: planned
 - [ ] bug: .keep files not removed when file is created in empty dir
 
 - [ ] git config alias
-	- git config --global alias.br branch   
+	- git config --global alias.br branch
 	- git config --global alias.ci commit
 	- git config --global alias.st status
 - [ ] refactor
