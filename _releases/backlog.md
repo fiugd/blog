@@ -34,13 +34,11 @@ category: planned
 	- arrow keys
 	- tab completion
 	- links (to something within app)
+- search performance
+
 - themes
 - extensions/plugins/store, see [store incubate](https://github.com/crosshj/fiug-incubator/blob/main/1ncubate/store/store.js)
 - open from fiug badge on github
-- search performance
-- performance
-	- be specific about what this means
-
 
 <!-- more -->
 
