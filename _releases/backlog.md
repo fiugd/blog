@@ -43,6 +43,7 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- codemirror mini-map doesn't appear until doc is focused
 - codemirror native scrollbars
 	- need to be styled to be invisible
 	- horizontal scrollbar needs to be visible
