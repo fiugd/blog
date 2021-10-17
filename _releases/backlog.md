@@ -43,6 +43,7 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- after files are commited, should remove "changed" status
 - codemirror mini-map doesn't appear until doc is focused
 - codemirror native scrollbars
 	- need to be styled to be invisible
