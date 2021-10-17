@@ -43,6 +43,7 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- when rollup error occurs ( /!/script ), indicate this somehow to caller
 - after files are commited, should remove "changed" status
 - codemirror mini-map doesn't appear until doc is focused
 - codemirror native scrollbars
