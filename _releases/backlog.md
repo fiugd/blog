@@ -43,6 +43,9 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- close all doesn't work properly
+	- does actually close tabs
+	- when next file is opened, all files are back
 - should be able to delete a cloned repository
 - should be able to update service worker without opening chrome dev tools
 - ^^^ see "nice to have 2021-10-04", items starting with "a way to"
