@@ -43,6 +43,11 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- codemirror native scrollbars
+	- need to be styled to be invisible
+	- horizontal scrollbar needs to be visible
+	- issues with native appearing when zoomed out
+	- see issues surrounding [this](https://github.com/crosshj/fiug-beta/commit/cd6037706efef2818456e7460060e9919248c3b0)
 - close all doesn't work properly
 	- does actually close tabs
 	- when next file is opened, all files are back
