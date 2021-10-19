@@ -43,6 +43,10 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- markdown frontmatter
+- on first open, project should show Readme.md open if exists
+- md, image templates, and maybe other templates loaded by default when fiug loads
+- when editor search returns no results -> "undefined of 1"
 - when rollup error occurs ( /!/script ), indicate this somehow to caller
 - after files are commited, should remove "changed" status
 - codemirror mini-map doesn't appear until doc is focused
