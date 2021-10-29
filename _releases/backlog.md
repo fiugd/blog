@@ -682,6 +682,8 @@ reset page for ui
 - [ ] connect codemirror to a language server ( LSP )
 	- see crosshj/fiug-beta/.welcome/1ncubate/editor/editor.language.server.js
 	- code completion, etc
+- [ ] language parser/lexer does double duty as syntax highlighter
+	- https://foo123.github.io/examples/codemirror-grammar/
 - [ ] stream contents of big files to codemirror (possible?)
 - language support:
 	- Rust, Julia, Swift, APL, ML, lisp, C#, OCaml, F#, other??
