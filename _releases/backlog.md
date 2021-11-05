@@ -21,7 +21,6 @@ category: planned
 
 # customer facing concerns still at large
 - panes and pane related
-- editor horizontal scroll
 - starting a github repo with fiug
 	- from scratch
 	- from folder on local hard drive
@@ -39,6 +38,7 @@ category: planned
 - themes
 - extensions/plugins/store, see [store incubate](https://github.com/crosshj/fiug-incubator/blob/main/1ncubate/store/store.js)
 - open from fiug badge on github
+- [X] editor horizontal scroll
 
 <!-- more -->
 
