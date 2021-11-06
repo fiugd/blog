@@ -43,11 +43,15 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- node REPL (and other REPL's as well)
+- minimap for large files (fails on service-worker dist, for example)
+- minimap should reproduce ascii art reliably
+	- because if it doesn't then how can we trust regular code to be repoduced reliably?
 - markdown frontmatter
 - on first open, project should show Readme.md open if exists
-- md, image templates, and maybe other templates loaded by default when fiug loads
+- markdown support, image templates, and maybe other templates loaded by default when fiug loads
 - when editor search returns no results -> "undefined of 1"
-- when rollup error occurs ( /!/script ), indicate this somehow to caller
+- when rollup error occurs ( ie, /!/script  case), indicate this somehow to caller
 - after files are commited, should remove "changed" status
 - codemirror mini-map doesn't appear until doc is focused
 - codemirror native scrollbars
