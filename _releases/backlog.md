@@ -43,6 +43,9 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- use prose mirror for markdown rendering
+	- https://prosemirror.net/examples/markdown/
+	- come with the advantage of being able to implement WYSIWG later
 - node REPL (and other REPL's as well)
 - minimap for large files (fails on service-worker dist, for example)
 - minimap should reproduce ascii art reliably
