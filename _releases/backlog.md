@@ -43,6 +43,8 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- word wrap in editor
+- editor search bar docks at top versus floating over
 - use prose mirror for markdown rendering
 	- https://prosemirror.net/examples/markdown/
 	- come with the advantage of being able to implement WYSIWG later
