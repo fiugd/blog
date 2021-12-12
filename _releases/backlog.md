@@ -692,7 +692,12 @@ reset page for ui
 	- see crosshj/fiug-beta/.welcome/1ncubate/editor/editor.language.server.js
 	- code completion, etc
 - [ ] language parser/lexer does double duty as syntax highlighter
-	- https://foo123.github.io/examples/codemirror-grammar/
+	- https://foo123.github.io/examples/codemirror-grammar
+	- ohm - https://github.com/harc/ohm
+	- pegjs/peggy - https://pegjs.org, https://github.com/peggyjs/peggy
+	- jison - https://github.com/zaach/jison
+	- chevotrain - https://chevrotain.io/docs
+	- nearley - https://github.com/kach/nearley
 - [ ] stream contents of big files to codemirror (possible?)
 - language support:
 	- Rust, Julia, Swift, APL, ML, lisp, C#, OCaml, F#, other??
