@@ -95,6 +95,9 @@ image processing
 	- disassembling: superpixels in javascript - https://github.com/kyamagu/js-segment-annotator/blob/master/js/image/segmentation/slico.js
 	- assembling/packing: https://github.com/mapbox/potpack
 	- image segmentation - https://www.youtube.com/watch?v=ZF-3aORwEc0
+	- kinda what I had in mind here - https://www.pureref.com/
+		- image references
+		- image searching
 
 - images with extra data
 	- extra: 3d data, notes, etc
