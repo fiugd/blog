@@ -15,7 +15,7 @@ https://opentext.wsu.edu/carriecuttler/chapter/methods-of-knowing/
 
 https://theblackcaterpillar2014.wordpress.com/2016/09/11/research-methodology-methods-of-knowledge/
 
-### Kerlinger (summarizing Charles Pierce)
+### Fred Kerlinger (summarizing Charles Pierce)
 - Tenacity
 - Authority
 - Intuition
