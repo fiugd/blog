@@ -9,6 +9,8 @@ video:
 
 <!-- image: https://user-images.githubusercontent.com/1816471/133835253-f25bd66f-3bd6-49a2-98a3-6ef1e8f58c97.png -->
 
+- what monaco uses for syntax highlighting: https://microsoft.github.io/monaco-editor/monarch.html
+
 - https://github.com/nilaymaj/esolang-park
 	- offers debugging for esolangs
 
