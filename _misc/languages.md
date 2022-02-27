@@ -9,6 +9,10 @@ video:
 
 <!-- image: https://user-images.githubusercontent.com/1816471/133835253-f25bd66f-3bd6-49a2-98a3-6ef1e8f58c97.png -->
 
+- https://github.com/nilaymaj/esolang-park
+	- offers debugging for esolangs
+
+- https://cs.lmu.edu/~ray/notes/languagedesignnotes
 
 - http://rigaux.org/language-study/diagram.html <<< COOL LANGUAGE MAP!
 
