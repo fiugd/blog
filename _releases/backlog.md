@@ -43,6 +43,8 @@ category: planned
 <!-- more -->
 
 # exiled from v0.4.6
+- "Go to github" - view github for the open repo
+- view commits (maybe be better option than Go to gh)
 - word wrap in editor
 - editor search bar docks at top versus floating over
 - use prose mirror for markdown rendering
