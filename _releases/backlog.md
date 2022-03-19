@@ -5,8 +5,8 @@ description: "features and fixes to think about when release planning"
 image: https://user-images.githubusercontent.com/1816471/133831476-abf1dfa0-d67f-421c-95d0-c821be5864ff.png
 video:
 
-started:
-released:
+started: 2099-01-01
+released: 2099-01-01
 date: 2099-01-01
 
 category: planned
