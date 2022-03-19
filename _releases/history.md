@@ -202,5 +202,5 @@ category: planned
 	- back end: persist, update, pm2(early)
 
 #### 2020-03-20 [bartok v0](https://www.youtube.com/watch?v=yKxyX_6NMZQ)
-	- basic front end - bootstrapp-like
+	- basic front end - bootstrap-like
 	- basic back end
