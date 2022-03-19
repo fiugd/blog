@@ -1,12 +1,10 @@
 ---
 
 title: "milestones"
-description: ""
+description: "important feature sets and associated completion status"
 image:
 video:
 
-started:
-released:
 date: 2020-03-01
 
 category: planned

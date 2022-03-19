@@ -5,8 +5,6 @@ description: ""
 image:
 video:
 
-started:
-released:
 date: 2020-03-01
 
 category: planned

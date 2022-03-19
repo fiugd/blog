@@ -1,7 +1,7 @@
 ---
 
 title: "history"
-description: ""
+description: "major fetures and release date"
 image:
 video:
 

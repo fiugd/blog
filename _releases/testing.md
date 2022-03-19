@@ -1,12 +1,10 @@
 ---
 
 title: "testing"
-description: ""
+description: "scenarios to run through to make sure all is working"
 image:
 video:
 
-started:
-released:
 date: 2020-03-01
 
 category: planned
