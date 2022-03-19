@@ -1,3 +1,19 @@
+---
+
+title: "todo"
+description: ""
+image:
+video:
+
+started:
+released:
+date: 2099-01-01
+
+category: planned
+
+---
+
+
 TODO 210413_1049
 ================
   - [ ] run javascript commands in terminal
