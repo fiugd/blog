@@ -1,3 +1,18 @@
+---
+
+title: "history"
+description: ""
+image:
+video:
+
+started:
+released:
+date: 2099-01-01
+
+category: planned
+
+---
+
 #### 2021-07-15 | TBD
 	- ocaml language
 	- delete operation

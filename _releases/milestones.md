@@ -1,3 +1,17 @@
+---
+
+title: "milestones"
+description: ""
+image:
+video:
+
+started:
+released:
+date: 2099-01-01
+
+category: planned
+
+---
 
 why I open Chrome Dev Tools | why I keep Chrome Dev Tools open
 --------------------------------------------------------------
