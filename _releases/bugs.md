@@ -1,13 +1,13 @@
 ---
 
 title: "bugs"
-description: "bugs"
-image: https://bit.ly/fiugLandscape2
+description: "known issues"
+image: https://user-images.githubusercontent.com/1816471/133831844-80ae5189-3b01-482d-a1e5-515cd8ff6222.png
 video:
 
 started:
 released:
-date: 2021-12-01
+date: 2099-12-01
 
 category: planned
 
