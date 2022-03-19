@@ -1,6 +1,6 @@
 ---
 
-title: "Version 0.x.x"
+title: "bugs"
 description: "bugs"
 image: https://bit.ly/fiugLandscape2
 video:
