@@ -1,7 +1,7 @@
 ---
 
 title: "todo"
-description: ""
+description: "similar to backlog"
 image:
 video:
 
@@ -10,7 +10,6 @@ date: 2020-03-01
 category: planned
 
 ---
-
 
 TODO 210413_1049
 ================
