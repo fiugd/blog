@@ -1,4 +1,4 @@
-
+## Wishing and Musing: Web Sites
 ```
 server
 ├── schemas
@@ -42,3 +42,5 @@ This seems pretty minimal compared to what I have seen so far.
 
 Still, it seems redundant across server/client.  Even then, it's redundant within both of these.  But maybe this is not without call.
 
+### reference
+- [ascii tree generator](https://tree.nathanfriend.io/)
