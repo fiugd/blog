@@ -21,12 +21,6 @@ category: planned
 
 # customer facing concerns still at large
 - panes and pane related
-- starting a github repo with fiug
-	- from scratch
-	- from folder on local hard drive
-- uploading files into a repo
-- removing a repo
-- viewing / cleaning up storage
 - issues with .keep files and ##PLACEHOLDER## files
 - tree dragging/droping
 - terminal
@@ -34,6 +28,16 @@ category: planned
 	- tab completion
 	- links (to something within app)
 - search performance
+- viewing / cleaning up storage
+
+- starting a github repo with fiug
+	- from scratch
+	- from folder on local hard drive
+- uploading files into a repo (especially binary)
+- removing a repo
+- git 
+	- history of commits
+	- diff across repos
 
 - themes
 - extensions/plugins/store, see [store incubate](https://github.com/crosshj/fiug-incubator/blob/main/1ncubate/store/store.js)
@@ -286,7 +290,7 @@ if (!window.frameElement) {
 - https://blog.stackblitz.com/posts/introducing-webcontainers/
 
 # found from codesandbox.io
-- first of all, why does bartok not use codesandbox?
+- first of all, why does fiug not use codesandbox?
 	- https://github.com/codesandbox/codesandbox-client/tree/master/standalone-packages/react-sandpack
 	- https://github.com/codesandbox/codesandbox-client/tree/master/standalone-packages/sandpack
 - https://browsix.org/ - Run C, C++, Go and Node.js programs as processes
