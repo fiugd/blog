@@ -400,3 +400,7 @@ graphs on the fly
 - cost of using declarative DSL versus procedure/imperative
 - power vs utility
 - utility of constraints
+
+
+## milestones
+[first commit](https://github.com/crosshj/experiments/commit/6292251303faf84243b30c20c8770f6f73372459)
