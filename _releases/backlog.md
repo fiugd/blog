@@ -18,6 +18,9 @@ category: planned
 <!-- ![image](http://bit.ly/fiugLandscape3) -->
 <!-- ![image](http://bit.ly/fiugLandscape4) -->
 
+# local file system
+- mount the file system, use browser [API's](https://web.dev/file-system-access/#try-it)
+
 
 # customer facing concerns still at large
 - panes and pane related
