@@ -21,7 +21,7 @@ nav:
 # - { title: 'Planned',             href: '/planned/' }
 - { title: 'Releases',           href: '/releases/' }
 - { title: 'Other',             href: '/misc/' }
-- { title: '@github', href: 'https://github.com/crosshj/fiug-blog/' }
+- { title: '@github', href: 'https://github.com/fiugd/blog/' }
 
 
 defaults:
