@@ -62,6 +62,7 @@ video:
 	- [codefence](https://codefence.io/)
 	- [tio](https://tio.run/#)
 	- [riju](https://github.com/hirako2000/riju)
+	- [playcode.io](https://playcode.io/)
 
 ### Nocode platform / Multiexperience Development Platforms (MXDP)
 - examples
