@@ -135,6 +135,28 @@ video:
 - [promlens](https://promlens.com/) - I enjoy both the look-and-feel of marketing AND the product itself
 
 
+### editors / IDEs
+
+#### Sublime Text
+<img width="1412" alt="image" src="https://user-images.githubusercontent.com/1816471/184520828-c3da72ff-3c22-4417-bb4e-6487f06f699c.png">
+
+#### Atom
+<img width="1454" alt="image" src="https://user-images.githubusercontent.com/1816471/184520621-ef70f6e5-d6b2-4eea-816a-ef9e25b6aae1.png">
+
+#### Brackets
+<img width="1431" alt="image" src="https://user-images.githubusercontent.com/1816471/184520685-ae0921d2-3941-4d51-acf5-f06b704680e1.png">
+
+#### VS Code
+<img width="1201" alt="image" src="https://user-images.githubusercontent.com/1816471/184520794-f8f9a13b-dd1b-40a5-89cc-50d585ab481e.png">
+
+#### Webstorm
+<img width="1214" alt="image" src="https://user-images.githubusercontent.com/1816471/184520713-760aefa0-c5b4-4257-830d-d1946f3b5ff9.png">
+
+#### JetBrains Fleet
+<img width="1032" alt="image" src="https://user-images.githubusercontent.com/1816471/184520741-28671bcf-1cee-46df-bb6a-24c884d42645.png">
+
+
+
 <!-- preaching...  I'm not sure I want this on the blog right now
 strategy
 ========
