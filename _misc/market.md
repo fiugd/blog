@@ -137,6 +137,8 @@ video:
 
 ### editors / IDEs
 
+[comparison of web editors](https://en.wikipedia.org/wiki/Comparison_of_JavaScript-based_source_code_editors)
+
 #### Sublime Text
 <img width="1412" alt="image" src="https://user-images.githubusercontent.com/1816471/184520828-c3da72ff-3c22-4417-bb4e-6487f06f699c.png">
 
