@@ -8,6 +8,10 @@ video:
 
 ---
 
+### SVG to data URI
+https://jsfiddle.net/yyvbqpxL/1/
+
+
 https://simulationcorner.net/index.php?page=sam
 Input: Bqr.qrff.Bqr.qrff.Bqr.qrff.szs.qrff.szse.Baoo.da.ba.sha.tra....Bqr.qrff.Bqr.qrff....boi...
 Input: xrl ll iiII IIII. II. I vriiit mrrrrkkk. Xkreeee. Xkruu.
