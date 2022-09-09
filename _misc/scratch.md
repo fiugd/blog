@@ -7,16 +7,25 @@ image: https://user-images.githubusercontent.com/1816471/133834403-5f652484-769b
 video:
 
 ---
+## data transformation
+dataweave by mulesoft (has DSL)
+- https://docs.mulesoft.com/dataweave/1.2/dataweave-examples
+- https://github.com/mulesoft-labs/data-weave-cli
+datasonnet (has DSL)
+- https://datasonnet.github.io/datasonnet-mapper/datasonnet/latest/quickstart.html
+jolt (defined in JSON)
+- https://github.com/bazaarvoice/jolt
 
-### SVG to data URI
+
+## SVG to data URI
 https://jsfiddle.net/yyvbqpxL/1/
 
-
+## T2S beatboxing
 https://simulationcorner.net/index.php?page=sam
 Input: Bqr.qrff.Bqr.qrff.Bqr.qrff.szs.qrff.szse.Baoo.da.ba.sha.tra....Bqr.qrff.Bqr.qrff....boi...
 Input: xrl ll iiII IIII. II. I vriiit mrrrrkkk. Xkreeee. Xkruu.
 
-### would like to do a 3D version of this as an example for fiug
+## would like to do a 3D version of this as an example for fiug
 [Legend Of Zelda Fan Art](https://dribbble.com/shots/14564003-Hylian-Crest-Legend-of-Zelda-fan-art)
 [Making of ...](https://www.linkedin.com/posts/tatiana-bischak-20575448_illustration-legendofzelda-nintendo-ugcPost-6847153376778559488-W75S)
 
