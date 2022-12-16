@@ -79,6 +79,10 @@ video:
 	- [athens](https://athensresearch.github.io/athens/)
 	- [foam](https://github.com/foambubble/foam)
 	- [vs code memo](https://github.com/svsool/vscode-memo)
+	
+### Code Analytics / Code Map
+- examples
+	- [CodeSee](https://www.codesee.io/maps-demos)
 
 ### Continuous Integration Tool
 - code, build, deployment automation
