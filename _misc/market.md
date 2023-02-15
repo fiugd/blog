@@ -72,13 +72,15 @@ video:
 	- [bubble.io](https://bubble.io/)
 	- [kintone](https://www.kintone.com/)
 
-### Mindmap / Knowledge Management Tool
+### Mindmap / Knowledge Management Tool / Personal Knowledge Management (PKM)
 - examples
 	- [dendron](https://dendron.so)
 	- [roam](https://roamresearch.com/)
 	- [athens](https://athensresearch.github.io/athens/)
 	- [foam](https://github.com/foambubble/foam)
 	- [vs code memo](https://github.com/svsool/vscode-memo)
+	- [obsidian](https://obsidian.md/)
+	- [logseq](https://logseq.com/)
 	
 ### Code Analytics / Code Map
 - examples
