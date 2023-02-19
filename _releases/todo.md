@@ -11,6 +11,12 @@ category: planned
 
 ---
 
+TODO 230218_2343
+================
+  - [ ] ability to upload image or another binary from local computer
+  - [ ] refresh with changes from remote
+  - [ ] better CLI recalling commands
+
 TODO 210413_1049
 ================
   - [ ] run javascript commands in terminal
