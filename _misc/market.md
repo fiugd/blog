@@ -81,7 +81,7 @@ video:
 	- [vs code memo](https://github.com/svsool/vscode-memo)
 	- [obsidian](https://obsidian.md/)
 	- [logseq](https://logseq.com/)
-	
+
 ### Code Analytics / Code Map
 - examples
 	- [CodeSee](https://www.codesee.io/maps-demos)
