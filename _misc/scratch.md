@@ -7,6 +7,14 @@ image: https://user-images.githubusercontent.com/1816471/133834403-5f652484-769b
 video:
 
 ---
+
+## CDN's
+- https://esm.sh/#docs
+- https://unpkg.com/
+- https://jsdelivr.com, eg https://jsdelivr.com/package/npm/@ffmpeg/ffmpeg
+- https://www.skypack.dev/, eg https://cdn.skypack.dev/preact@10.5.5
+
+
 ## data transformation
 dataweave by mulesoft (has DSL)
 - https://docs.mulesoft.com/dataweave/1.2/dataweave-examples
