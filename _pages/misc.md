@@ -8,21 +8,23 @@ Can anyone tell me what the difference is between 'random' and 'miscellaneous'?
 
 And what is a 'post' versus a 'page'?
 
-Random Posts:   
+Random:   
+<ul>
 {% for post in site.categories.random %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+</ul>
    
-Other Miscellaneous:   
+Miscellaneous:   
 <ul>
 {% for post in site.misc %}
   <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.description }}</li>
 {% endfor %}
 </ul>
    
-Drafts:
+Drafts:   
 <ul>
-{% for post in site.misc %}
+{% for post in site.drafts %}
   <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.description }}</li>
 {% endfor %}
 </ul>
