@@ -1,7 +1,7 @@
 ---
 
 title: "Think Tank"
-description: ""
+description: "a platform for connecting thoughts"
 image:
 video:
 date: 2024-03-17

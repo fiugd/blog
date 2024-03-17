@@ -1,7 +1,7 @@
 ---
 
 title: "Methods of Knowing"
-description: ""
+description: "how can something be known?"
 image:
 video:
 date: 2021-12-23

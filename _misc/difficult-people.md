@@ -1,7 +1,7 @@
 ---
 
 title: "Difficult People"
-description: ""
+description: exploring contrarians and contrarian thoughts
 image:
 video:
 date: 2021-08-12

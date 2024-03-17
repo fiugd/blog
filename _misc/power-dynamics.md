@@ -1,7 +1,7 @@
 ---
 
 title: "Power Dynamics"
-description: ""
+description: "exploring the human use of human beings"
 image:
 video:
 date: 2022-04-03

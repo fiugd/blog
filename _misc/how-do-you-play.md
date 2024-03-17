@@ -1,9 +1,10 @@
 ---
+
 layout: post
 title: "How do you play with code?"
 description: An exploration of the different ways to explore using code.
 date: 2021-09-20
-category:
+
 ---
 
 1. notepad.exe and a browser

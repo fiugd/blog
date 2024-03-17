@@ -1,7 +1,7 @@
 ---
 
 title: "Frontend"
-description: ""
+description: musing about frontend patterns
 image:
 video:
 date: 2021-09-16

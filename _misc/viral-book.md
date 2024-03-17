@@ -1,7 +1,7 @@
 ---
 
 title: "Viral Book"
-description: ""
+description: "an idea about how to make a book that goes viral"
 image:
 video:
 date: 2024-03-17

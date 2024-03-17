@@ -1,9 +1,10 @@
 ---
 
-title: "ideas"
+title: "Some Ideas"
 description: "a running list of all the explorations I would like to dig deeper into"
 image: https://user-images.githubusercontent.com/1816471/117058416-95c66a80-acec-11eb-887e-fddc40627cdc.png
 video:
+date: 2021-09-16
 
 ---
 

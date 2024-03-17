@@ -1,7 +1,7 @@
 ---
 
 title: "Leadership"
-description: ""
+description: "thoughts on leadership, can a leader be technical?"
 image:
 video:
 date: 2021-12-23

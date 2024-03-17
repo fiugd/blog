@@ -1,7 +1,7 @@
 ---	
 
 title: "Closed Mind, The Game™: Software Dev Edition"	
-description:	
+description: a tongue-in-cheek look at a how software is delivered
 image:	
 video:	
 date: 2021-09-16
