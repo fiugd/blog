@@ -1,3 +1,14 @@
+---
+
+title: "Modeling Thought"
+description: "Can thought be modeled using geometric or other methods?"
+image:
+video:
+date: 2021-12-23
+
+---
+
+
 "All models are wrong, some models are useful" -- E.P. Box
 
 

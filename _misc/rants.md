@@ -4,6 +4,7 @@ title: "rants"
 description: "anything that irritates me"
 image: https://user-images.githubusercontent.com/1816471/133835096-d994a5e7-fe42-4966-86e0-0c34eeb92317.png
 video:
+date: 2021-09-16
 
 ---
 

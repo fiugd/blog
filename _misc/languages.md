@@ -4,6 +4,7 @@ title: "languages"
 description: "languages, syntax highlighting, etc"
 image: https://user-images.githubusercontent.com/1816471/133836251-a5e3275a-6da0-4b38-a5f7-a5eaba2090e9.png
 video:
+date: 2021-09-17
 
 ---
 

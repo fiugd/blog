@@ -1,9 +1,10 @@
 ---
 
 title: "Hidden Costs"
-description: ""
+description: "Define and explore 'hidden' costs."
 image:
 video:
+date: 2022-04-03
 
 ---
 

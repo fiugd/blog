@@ -4,6 +4,7 @@ title: "market"
 description: "what is fiug (not)?"
 image: https://img.youtube.com/vi/7T-L-MBFoE4/maxresdefault.jpg
 video:
+date: 2021-09-17
 
 ---
 
