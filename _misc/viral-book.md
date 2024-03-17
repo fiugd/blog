@@ -8,13 +8,13 @@ video:
 ---
 
 ### The Gist
-self-publish a book
-provide a companion website
-promote book by leaving free copies in McKay free bin, etc
-leave pages blank for: additions, logging
-allow users to upload filled blanks to website
-give each copy a number
-provide a bag of business cards with link to website, number those as well
+self-publish a book   
+provide a companion website   
+promote book by leaving free copies in McKay free bin, etc   
+leave pages blank for: additions, logging   
+allow users to upload filled blanks to website   
+give each copy a number   
+provide a bag of business cards with link to website, number those as well   
 
 ### Chapters:
 
@@ -43,11 +43,11 @@ Why can't we pay for software?
 The Einstein you know was not the real Einstein
 
 #### What is a viral book?
-Chick pamphlets / comics
-https://www.wheresgeorge.com/
-https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon
-[Think Tank Software](think-tank)
-Why a book?
+Chick pamphlets / comics   
+https://www.wheresgeorge.com/   
+https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon   
+[Think Tank Software](think-tank)   
+Why a book?   
 
 #### The Tyranny of Questions
 
