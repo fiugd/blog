@@ -4,6 +4,7 @@ title: "Wishing and Musing: Web Sites"
 description: Musing about how web sites are made
 image:
 video:
+date: 2022-03-28
 
 ---
 
