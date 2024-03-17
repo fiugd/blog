@@ -1,3 +1,12 @@
+---
+
+title: "Investing"
+description: ""
+image:
+video:
+
+---
+
 NOTE: I'd prefer the following be presented as an interactive document/form
 
 - The savings account at my bank seems like a terrible place to store money

@@ -6,6 +6,14 @@ Most of this document can be considered me obsessing over geometric models I hav
 
 I want to talk about using geometic models as thought aids.  I'll start with a well know example and pose questions after and along the way.
 
+---
+
+title: "Modeling Thought"
+description: ""
+image:
+video:
+
+---
 
 References
 ----------

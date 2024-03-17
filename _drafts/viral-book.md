@@ -28,7 +28,7 @@ Completionism / Pokemon
 #### Incentives
 Economics - the most important History subject that almost nobody likes
 Disposable Income
-Hidden Costs
+[Hidden Costs](hidden-costs.md)
 Why can't we pay for software?
 
 #### The Current State of Human Interaction at Scale

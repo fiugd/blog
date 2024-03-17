@@ -1,7 +1,15 @@
+---
+
+title: "Think Tank"
+description: ""
+image:
+video:
+
+---
 
 ### "think tank" distinction
 
-from: https://chat.openai.com/share/ed6b3397-3790-4e05-bb30-b09af08e6f8d
+from: [Think Tank reality versus Expectation](https://chat.openai.com/share/ed6b3397-3790-4e05-bb30-b09af08e6f8d)
 
 Me
 What is a think tank?

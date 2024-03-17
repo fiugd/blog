@@ -1,3 +1,12 @@
+---
+
+title: "Difficult People"
+description: ""
+image:
+video:
+
+---
+
 ### Difficult People (DP)
 
 "an unexamined life is not worth living"

@@ -1,4 +1,11 @@
-## Methods of Knowledge
+---
+
+title: "Methods of Knowing"
+description: ""
+image:
+video:
+
+---
 
 exploring this after watching this [The Myth of Race and Evolution of Skin Color (Part 3)](https://www.youtube.com/watch?v=t1TaP1b_XvM)
 

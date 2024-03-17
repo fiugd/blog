@@ -1,3 +1,11 @@
+---
+
+title: "Power Dynamics"
+description: ""
+image:
+video:
+
+---
 
 # Situation 1:
 - Party A has an ubundant supply resource A.

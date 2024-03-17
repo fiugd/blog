@@ -1,4 +1,11 @@
-## Leadership
+---
+
+title: "Leadership"
+description: ""
+image:
+video:
+
+---
 
 A leader is a salesperson.  
 

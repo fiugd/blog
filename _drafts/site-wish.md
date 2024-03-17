@@ -1,4 +1,14 @@
-## Wishing and Musing: Web Sites
+---
+
+title: "Wishing and Musing: Web Sites"
+description: ""
+image:
+video:
+
+---
+
+TODO: this needs to be updated to my current views which are much less graphQL-ish (?)
+
 ```
 server
 ├── schemas

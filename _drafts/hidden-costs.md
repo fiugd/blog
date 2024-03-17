@@ -1,3 +1,11 @@
+---
+
+title: "Hidden Costs"
+description: ""
+image:
+video:
+
+---
 
 Understanding hidden costs is essential to understanding topics such as @leadership, @marketing, @negotiation, @modernity, and @power_dynamics.
 

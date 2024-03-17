@@ -1,3 +1,12 @@
+---
+
+title: "Frontend"
+description: ""
+image:
+video:
+
+---
+
 - [mvc family tree](https://mvc.givan.se/)
 
 
