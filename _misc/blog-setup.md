@@ -6,7 +6,6 @@ date:   2021-08-21
 category: present
 
 ---
-
 This is a running list of notes to myself related to setting up this blog.
 
 <!-- more -->
@@ -27,5 +26,3 @@ This is a running list of notes to myself related to setting up this blog.
 
 # TODO: move all of the following from fiug-beta to here
 <!-- ![image](https://user-images.githubusercontent.com/1816471/128581713-cddc90d7-0ebf-43f5-82ae-d16376b18006.png) -->
-
-
