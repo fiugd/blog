@@ -36,7 +36,7 @@ Completionism / Pokemon
 #### Incentives
 Economics - the most important History subject that almost nobody likes
 Disposable Income
-[Hidden Costs](hidden-costs.md)
+[Hidden Costs](hidden-costs)
 Why can't we pay for software?
 
 #### The Current State of Human Interaction at Scale
@@ -46,7 +46,7 @@ The Einstein you know was not the real Einstein
 Chick pamphlets / comics
 https://www.wheresgeorge.com/
 https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon
-[Think Tank Software](think-tank.md)
+[Think Tank Software](think-tank)
 Why a book?
 
 #### The Tyranny of Questions
