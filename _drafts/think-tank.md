@@ -33,3 +33,8 @@ crowd-source various tasks
 
 "the web"
 a giant graph of data
+
+### an investment model for the movie industry
+what if we knew what kind of movies should be made by querying a graph of people who expressed their movie interests?
+what if those who made movies were funded by those who wanted to see them made?
+how can this be modelled in a way that helps us understand the outcome while we are theorizing about it?
