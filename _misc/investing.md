@@ -4,6 +4,7 @@ title: "Investing"
 description: ""
 image:
 video:
+date: 2022-11-16
 
 ---
 

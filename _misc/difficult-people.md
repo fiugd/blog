@@ -4,6 +4,7 @@ title: "Difficult People"
 description: ""
 image:
 video:
+date: 2021-08-12
 
 ---
 

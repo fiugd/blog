@@ -4,6 +4,7 @@ title: "Frontend"
 description: ""
 image:
 video:
+date: 2021-09-16
 
 ---
 

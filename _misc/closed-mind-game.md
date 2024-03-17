@@ -4,6 +4,7 @@ title: "Closed Mind, The Game™: Software Dev Edition"
 description:	
 image:	
 video:	
+date: 2021-09-16
 
 ---	
 
