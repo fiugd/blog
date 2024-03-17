@@ -25,19 +25,19 @@ provide a bag of business cards with link to website, number those as well
 #### Addiction
 
 #### The Collector
-Fandom
-Gacha games
-Completionism / Pokemon
+Fandom   
+Gacha games   
+Completionism / Pokemon   
 
 #### Sex
 
 #### Drugs
 
 #### Incentives
-Economics - the most important History subject that almost nobody likes
-Disposable Income
-[Hidden Costs](hidden-costs)
-Why can't we pay for software?
+Economics - the most important History subject that almost nobody likes   
+Disposable Income   
+[Hidden Costs](hidden-costs)   
+Why can't we pay for software?   
 
 #### The Current State of Human Interaction at Scale
 The Einstein you know was not the real Einstein
@@ -46,7 +46,7 @@ The Einstein you know was not the real Einstein
 Chick pamphlets / comics   
 https://www.wheresgeorge.com/   
 https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon   
-[Think Tank Software](think-tank)   
+[Think Tank Platform](think-tank)   
 Why a book?   
 
 #### The Tyranny of Questions
