@@ -59,5 +59,5 @@ date: 2021-09-16
 	- theoretical physics
 	- gender issues
 
-- see closeYourMindGame.md
+- see [Close Your Mind: The Game](closed-mind-game)
 
