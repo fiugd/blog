@@ -17,10 +17,10 @@ Random:
    
 Miscellaneous:   
 <ul>
-{% for post in site.misc %}
+{% assign sorted_misc = site.misc | sort: 'date' | reverse %}
+{% for post in sorted_misc %}
   <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.description }}</li>
 {% endfor %}
 </ul>
-   
 
 
