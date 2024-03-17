@@ -1,3 +1,11 @@
+---
+
+title: "Viral Book"
+description: ""
+image:
+video:
+
+---
 
 ### The Gist
 self-publish a book
